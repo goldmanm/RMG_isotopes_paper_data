@@ -5,14 +5,21 @@ import numpy as np
 import pandas as pd
 import statsmodels.formula.api as sm
 import os
-
-import cantera_tools as ctt
-import analysis_methods as am
-
 import matplotlib.pyplot as plt
 import matplotlib as mpl
 import seaborn as sns
 from matplotlib.lines import Line2D
+
+try:
+    import cantera as ct
+except ModuleNotFoundError:
+    raise Exception("I am not seeing cantera installed. Find more information about installing it on https://www.cantera.org/.")
+
+try:
+    import cantera_tools as ctt
+    import analysis_methods as am
+except ModuleNotFoundError:
+    raise Exception("I am having trouble loading special modules. Make sure you run this script from within the 'code' folder.")
 
 image_path = '../results'
 if not os.path.exists(image_path):
@@ -83,16 +90,14 @@ for name, mainPath in main_paths:
     temp = 850+273
     times = np.linspace(1e-4,95. / temp,100)
 
-    solution = ctt.create_mechanism(os.path.join(mainPath,'chem.cti'))
+    solution = ct.Solution(os.path.join(mainPath,'chem.cti'))
 
     conditions = temp, 2e5, initialMoleFractions
 
     output = ctt.run_simulation(solution, times, conditions=conditions, 
                           condition_type = 'constant-temperature-and-pressure',
                           output_species = True,
-                          output_reactions = False,
-                          output_directional_reactions = False,
-                          output_rop_roc = False)
+                          output_reactions = False)
     species = output['species']
 
     # find enrichments and total concentration
@@ -175,7 +180,7 @@ isotopomer_info = pd.read_csv(os.path.join(model_path,'isotopomer_cluster_info.c
 mole_fractions = pd.DataFrame(index=molecule_to_cluster_number.keys())
 for temp in (750,800,850,900,950):
 
-    solution = ctt.create_mechanism(model_file)
+    solution = ct.Solution(model_file)
 
  
     # set initial conditions of solution in kelvin pascals and mole fractions
@@ -185,9 +190,7 @@ for temp in (750,800,850,900,950):
     output = ctt.run_simulation(solution, [0,t_final], conditions=conditions, 
                           condition_type = 'constant-temperature-and-pressure',
                           output_species = True,
-                          output_reactions = True,
-                          output_directional_reactions = False,
-                          output_rop_roc = False)
+                          output_reactions = True)
     species = output['species'].loc[t_final,:]
 
     isotopomer_info['conc'] = species
@@ -296,16 +299,14 @@ for model_index in range(2):
         conversion = conversions_gilbert[temp]
 
         # creates the cantera Solution object
-        solution = ctt.create_mechanism(model_file)
+        solution = ct.Solution(model_file)
 
         conditions = temp+273, 2e5, initialMoleFractions
 
         output = ctt.run_simulation_till_conversion(solution, species='CCC', conversion=conversion,conditions = conditions,
                               condition_type = 'constant-temperature-and-pressure',
                               output_species = True,
-                              output_reactions = False,
-                              output_directional_reactions = False,
-                              output_rop_roc = False)
+                              output_reactions = False)
         species = output['species'].iloc[-1,:]
 
         isotopomer_info['conc'] = species
@@ -378,7 +379,7 @@ for model_index in range(4):
     for temp in (800,850,900,950):
         delta_enrichments = pd.DataFrame(index=list(molecule_to_cluster_number.keys()) + ['bulk'])
         for psia in np.linspace(-10, 20, 5):
-            solution = ctt.create_mechanism(model_file)
+            solution = ct.Solution(model_file)
 
             center_labeled_delta = -28
             edge_labeled_delta = -28 + psia
@@ -401,9 +402,7 @@ for model_index in range(4):
             output = ctt.run_simulation(solution, [0,t_final],conditions, 
                                   condition_type = 'constant-temperature-and-pressure',
                                   output_species = True,
-                                  output_reactions = False,
-                                  output_directional_reactions = False,
-                                  output_rop_roc = False)
+                                  output_reactions = False)
             species = output['species'].loc[t_final,:]
             isotopomer_info['conc'] = species
 
