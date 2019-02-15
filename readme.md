@@ -1,4 +1,4 @@
-This is a readme file for supplemental data for "Computer-generated isotope model achieves experiment-level accuracy of fidelity for position-specific isotope analysis". This includes all the chemical mechanisms generated as well as the code used to convert those mechanisms into the figures in the paper. Here is a list of the folders each contains:
+This is a readme file for supplemental data for "Computer-generated isotope model achieves experiment-level accuracy of fidelity for position-specific isotope analysis". This includes all the chemical mechanisms generated as well as the code used to simulate the chemistry and create the figures in the paper. Here is a list of the folders and what each contains:
 
 # input files
 
@@ -35,11 +35,13 @@ The code in this section was tested with Python 2.7 and Python 3.6 with the foll
 * statsmodels 0.8.0 (0.9.0 for Py3)
 * matplotlib 2.0.2 (2.2.3 for Py3)
 
-All of these should packages except seaborn come with RMG installation. For the prepare_model.py function to work RMG must be installed. Documentation for this is available at reactionmechanismgenerator.github.io/RMG-Py/. All other analysis should be doable without RMG installation.
+If you are not familiar with python, I recommend using [anaconda]() to manage the packages. While most packages are available on anaconda's default channel, the package cantera is not, but it is available on the cantera channel and can be installed with `conda install -c cantera cantera`.
+
+Documentation for running RMG to obtain the mechanisms is available at reactionmechanismgenerator.github.io/RMG-Py/, which is needed for `prepare_models.py` to run. All other analysis is doable without RMG installation.
 
 # exp_data
 
-CSV files containing 'Gilbert' data from analyzing the figures and tables in Gilbert et al. Measurement of position-specific 13C isotopic composition of propane at the nanomole level. Geochemica et Cosmochemica Acta 177:205-216, 2016. The data originating from figures was approximated using [Engauge Digitizer](https://markummitchell.github.io/engauge-digitizer/). These are used in creating figures in the paper. 
+This directory lists CSV files containing data from the figures and tables in Gilbert et al. Measurement of position-specific 13C isotopic composition of propane at the nanomole level. Geochemica et Cosmochemica Acta 177:205-216, 2016. The data originating from figures was approximated using [Engauge Digitizer](https://markummitchell.github.io/engauge-digitizer/). These are used in creating figures in the paper. 
 
 # results
 
