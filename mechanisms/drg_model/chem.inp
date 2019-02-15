@@ -1,0 +1,1560 @@
+ELEMENTS
+	H
+	D /2.014/
+	T /3.016/
+	C
+	CI /13.003/
+	O
+	OI /18.000/
+	N
+	Ne
+	Ar
+	He
+	Si
+	S
+	Cl
+END
+
+SPECIES
+    He                  ! He
+    C3H8(1)             ! propane_ooo(1)
+    CCC(2)              ! CCC(2)
+    CCC(3)              ! CCC(3)
+    CCC(4)              ! CCC(4)
+    CCC(5)              ! CCC(5)
+    CCC(6)              ! CCC(6)
+    CC(7)               ! CC(7)
+    CC(8)               ! CC(8)
+    CC(9)               ! CC(9)
+    C2H5(10)            ! C2H5(10)
+    C2H5(11)            ! C[CH2](11)
+    C2H5(12)            ! C[CH2](12)
+    C2H5(13)            ! C[CH2](13)
+    CH3(14)             ! CH3(14)
+    CH3(15)             ! [CH3](15)
+    H(16)               ! H(16)
+    C3H7(17)            ! C3H7(17)
+    C3H7(18)            ! [CH2]CC(18)
+    C3H7(19)            ! [CH2]CC(19)
+    C3H7(20)            ! [CH2]CC(20)
+    C3H7(21)            ! [CH2]CC(21)
+    C3H7(22)            ! [CH2]CC(22)
+    C3H7(23)            ! [CH2]CC(23)
+    C3H7(24)            ! [CH2]CC(24)
+    C2H4(25)            ! C2H4(25)
+    C2H4(26)            ! C=C(26)
+    C2H4(27)            ! C=C(27)
+    C(28)               ! C(28)
+    C(29)               ! C(29)
+    H2(30)              ! H2(30)
+END
+
+
+
+THERM ALL
+    300.000  1000.000  5000.000
+
+! Thermo library: primaryThermoLibrary
+He                      He  1               G   200.000  6000.000 1000.00      1
+ 2.50000000E+00 0.00000000E+00 0.00000000E+00 0.00000000E+00 0.00000000E+00    2
+-7.45375000E+02 9.28724000E-01 2.50000000E+00 0.00000000E+00 0.00000000E+00    3
+ 0.00000000E+00 0.00000000E+00-7.45375000E+02 9.28724000E-01                   4
+
+! Thermo group additivity estimation: group(Cs-CsCsHH) + group(Cs-CsHHH) + group(Cs-CsHHH)
+C3H8(1)                 H   8C   3          G   100.000  5000.000 1055.22      1
+ 5.39660375E+00 2.26791786E-02-8.56068459E-06 1.56857136E-09-1.10132341E-13    2
+-1.58721750E+04-6.00351289E+00 2.98553248E+00 1.63573562E-02 2.24041993E-05    3
+-3.18798574E-08 1.11040722E-11-1.45025231E+04 9.83691377E+00                   4
+
+! Thermo group additivity estimation: group(Cs-CsCsHH) + group(Cs-CsHHH) + group(Cs-CsHHH)
+CCC(2)                  H   8CI  3          G   100.000  5000.000 1055.22      1
+ 5.39660375E+00 2.26791786E-02-8.56068459E-06 1.56857136E-09-1.10132341E-13    2
+-1.58721750E+04-6.00351289E+00 2.98553248E+00 1.63573562E-02 2.24041993E-05    3
+-3.18798574E-08 1.11040722E-11-1.45025231E+04 9.83691377E+00                   4
+
+! Thermo group additivity estimation: group(Cs-CsCsHH) + group(Cs-CsHHH) + group(Cs-CsHHH)
+CCC(3)                  H   8C   1CI  2     G   100.000  5000.000 1055.22      1
+ 5.39660375E+00 2.26791786E-02-8.56068459E-06 1.56857136E-09-1.10132341E-13    2
+-1.58721750E+04-6.00351289E+00 2.98553248E+00 1.63573562E-02 2.24041993E-05    3
+-3.18798574E-08 1.11040722E-11-1.45025231E+04 9.83691377E+00                   4
+
+! Thermo group additivity estimation: group(Cs-CsCsHH) + group(Cs-CsHHH) + group(Cs-CsHHH)
+CCC(4)                  H   8CI  2C   1     G   100.000  5000.000 1055.22      1
+ 5.39660375E+00 2.26791786E-02-8.56068459E-06 1.56857136E-09-1.10132341E-13    2
+-1.58721750E+04-5.31036571E+00 2.98553248E+00 1.63573562E-02 2.24041993E-05    3
+-3.18798574E-08 1.11040722E-11-1.45025231E+04 1.05300609E+01                   4
+
+! Thermo group additivity estimation: group(Cs-CsCsHH) + group(Cs-CsHHH) + group(Cs-CsHHH)
+CCC(5)                  H   8C   2CI  1     G   100.000  5000.000 1055.22      1
+ 5.39660375E+00 2.26791786E-02-8.56068459E-06 1.56857136E-09-1.10132341E-13    2
+-1.58721750E+04-5.31036571E+00 2.98553248E+00 1.63573562E-02 2.24041993E-05    3
+-3.18798574E-08 1.11040722E-11-1.45025231E+04 1.05300609E+01                   4
+
+! Thermo group additivity estimation: group(Cs-CsCsHH) + group(Cs-CsHHH) + group(Cs-CsHHH)
+CCC(6)                  H   8CI  1C   2     G   100.000  5000.000 1055.22      1
+ 5.39660375E+00 2.26791786E-02-8.56068459E-06 1.56857136E-09-1.10132341E-13    2
+-1.58721750E+04-6.00351289E+00 2.98553248E+00 1.63573562E-02 2.24041993E-05    3
+-3.18798574E-08 1.11040722E-11-1.45025231E+04 9.83691377E+00                   4
+
+! Thermo group additivity estimation: group(Cs-CsHHH) + group(Cs-CsHHH)
+CC(7)                   H   6C   2          G   100.000  5000.000 1017.72      1
+ 4.04728726E+00 1.48895939E-02-5.07131662E-06 9.10368800E-10-6.47292775E-14    2
+-1.25198755E+04-5.38055839E-01 3.71985960E+00 1.30751518E-03 3.68623244E-05    3
+-4.09144928E-08 1.37359191E-11-1.16832028E+04 4.83045125E+00                   4
+
+! Thermo group additivity estimation: group(Cs-CsHHH) + group(Cs-CsHHH)
+CC(8)                   H   6CI  2          G   100.000  5000.000 1017.72      1
+ 4.04728726E+00 1.48895939E-02-5.07131662E-06 9.10368800E-10-6.47292775E-14    2
+-1.25198755E+04-5.38055839E-01 3.71985960E+00 1.30751518E-03 3.68623244E-05    3
+-4.09144928E-08 1.37359191E-11-1.16832028E+04 4.83045125E+00                   4
+
+! Thermo group additivity estimation: group(Cs-CsHHH) + group(Cs-CsHHH)
+CC(9)                   H   6C   1CI  1     G   100.000  5000.000 1017.72      1
+ 4.04728726E+00 1.48895939E-02-5.07131662E-06 9.10368800E-10-6.47292775E-14    2
+-1.25198755E+04 1.55091342E-01 3.71985960E+00 1.30751518E-03 3.68623244E-05    3
+-4.09144928E-08 1.37359191E-11-1.16832028E+04 5.52359843E+00                   4
+
+! Thermo group additivity estimation: group(Cs-CsHHH) + group(Cs-CsHHH) + radical(CCJ)
+C2H5(10)                H   5C   2          G   100.000  5000.000  940.29      1
+ 4.66307387E+00 1.02220259E-02-2.22421971E-06 3.03604365E-10-2.01426041E-14    2
+ 1.22296601E+04-1.83171549E-01 3.79173146E+00-3.70327405E-04 3.74837033E-05    3
+-4.40218817E-08 1.60647629E-11 1.30256491E+04 7.32823051E+00                   4
+
+! Thermo group additivity estimation: group(Cs-CsHHH) + group(Cs-CsHHH) + radical(CCJ)
+C2H5(11)                H   5CI  2          G   100.000  5000.000  940.29      1
+ 4.66307387E+00 1.02220259E-02-2.22421971E-06 3.03604365E-10-2.01426041E-14    2
+ 1.22296601E+04-1.83171549E-01 3.79173146E+00-3.70327405E-04 3.74837033E-05    3
+-4.40218817E-08 1.60647629E-11 1.30256491E+04 7.32823051E+00                   4
+
+! Thermo group additivity estimation: group(Cs-CsHHH) + group(Cs-CsHHH) + radical(CCJ)
+C2H5(12)                H   5C   1CI  1     G   100.000  5000.000  940.29      1
+ 4.66307387E+00 1.02220259E-02-2.22421971E-06 3.03604365E-10-2.01426041E-14    2
+ 1.22296601E+04-1.83171549E-01 3.79173146E+00-3.70327405E-04 3.74837033E-05    3
+-4.40218817E-08 1.60647629E-11 1.30256491E+04 7.32823051E+00                   4
+
+! Thermo group additivity estimation: group(Cs-CsHHH) + group(Cs-CsHHH) + radical(CCJ)
+C2H5(13)                H   5CI  1C   1     G   100.000  5000.000  940.29      1
+ 4.66307387E+00 1.02220259E-02-2.22421971E-06 3.03604365E-10-2.01426041E-14    2
+ 1.22296601E+04-1.83171549E-01 3.79173146E+00-3.70327405E-04 3.74837033E-05    3
+-4.40218817E-08 1.60647629E-11 1.30256491E+04 7.32823051E+00                   4
+
+! Thermo library: primaryThermoLibrary + radical(CH3)
+CH3(14)                 H   3C   1          G   100.000  5000.000 1385.04      1
+ 3.64603247E+00 4.61006764E-03-1.73822548E-06 3.10485470E-10-2.08059610E-14    2
+ 1.61726408E+04 1.05776308E+00 3.90865971E+00 1.91172254E-03 3.28496488E-06    3
+-3.11856598E-09 7.80663063E-13 1.62859586E+04 3.76896381E-01                   4
+
+! Thermo library: primaryThermoLibrary + radical(CH3)
+CH3(15)                 H   3CI  1          G   100.000  5000.000 1385.04      1
+ 3.64603247E+00 4.61006764E-03-1.73822548E-06 3.10485470E-10-2.08059610E-14    2
+ 1.61726408E+04 1.05776308E+00 3.90865971E+00 1.91172254E-03 3.28496488E-06    3
+-3.11856598E-09 7.80663063E-13 1.62859586E+04 3.76896381E-01                   4
+
+! Thermo library: primaryThermoLibrary
+H(16)                   H   1               G   100.000  5000.000 2517.79      1
+ 2.50000000E+00 8.36503305E-14-3.91115551E-17 7.87972009E-21-5.78134237E-25    2
+ 2.54742178E+04-4.44972896E-01 2.50000000E+00 1.50049018E-15-2.56785808E-18    3
+ 1.48635202E-21-2.69272097E-25 2.54742178E+04-4.44972896E-01                   4
+
+! Thermo group additivity estimation: group(Cs-CsCsHH) + group(Cs-CsHHH) + group(Cs-CsHHH) + radical(RCCJ)
+C3H7(17)                H   7C   3          G   100.000  5000.000 1045.62      1
+ 5.41058501E+00 2.00263825E-02-7.61239804E-06 1.39154770E-09-9.73742777E-14    2
+ 8.96473423E+03-2.75748854E+00 3.05546653E+00 1.54360527E-02 1.84824829E-05    3
+-2.76851842E-08 9.82878730E-12 1.02006877E+04 1.22646995E+01                   4
+
+! Thermo group additivity estimation: group(Cs-CsCsHH) + group(Cs-CsHHH) + group(Cs-CsHHH) + radical(RCCJ)
+C3H7(18)                H   7CI  3          G   100.000  5000.000 1045.62      1
+ 5.41058501E+00 2.00263825E-02-7.61239804E-06 1.39154770E-09-9.73742777E-14    2
+ 8.96473423E+03-2.75748854E+00 3.05546653E+00 1.54360527E-02 1.84824829E-05    3
+-2.76851842E-08 9.82878730E-12 1.02006877E+04 1.22646995E+01                   4
+
+! Thermo group additivity estimation: group(Cs-CsCsHH) + group(Cs-CsHHH) + group(Cs-CsHHH) + radical(RCCJ)
+C3H7(19)                H   7C   1CI  2     G   100.000  5000.000 1045.62      1
+ 5.41058501E+00 2.00263825E-02-7.61239804E-06 1.39154770E-09-9.73742777E-14    2
+ 8.96473423E+03-2.75748854E+00 3.05546653E+00 1.54360527E-02 1.84824829E-05    3
+-2.76851842E-08 9.82878730E-12 1.02006877E+04 1.22646995E+01                   4
+
+! Thermo group additivity estimation: group(Cs-CsCsHH) + group(Cs-CsHHH) + group(Cs-CsHHH) + radical(RCCJ)
+C3H7(20)                H   7CI  2C   1     G   100.000  5000.000 1045.62      1
+ 5.41058501E+00 2.00263825E-02-7.61239804E-06 1.39154770E-09-9.73742777E-14    2
+ 8.96473423E+03-2.75748854E+00 3.05546653E+00 1.54360527E-02 1.84824829E-05    3
+-2.76851842E-08 9.82878730E-12 1.02006877E+04 1.22646995E+01                   4
+
+! Thermo group additivity estimation: group(Cs-CsCsHH) + group(Cs-CsHHH) + group(Cs-CsHHH) + radical(RCCJ)
+C3H7(21)                H   7C   2CI  1     G   100.000  5000.000 1045.62      1
+ 5.41058501E+00 2.00263825E-02-7.61239804E-06 1.39154770E-09-9.73742777E-14    2
+ 8.96473423E+03-2.75748854E+00 3.05546653E+00 1.54360527E-02 1.84824829E-05    3
+-2.76851842E-08 9.82878730E-12 1.02006877E+04 1.22646995E+01                   4
+
+! Thermo group additivity estimation: group(Cs-CsCsHH) + group(Cs-CsHHH) + group(Cs-CsHHH) + radical(RCCJ)
+C3H7(22)                H   7CI  2C   1     G   100.000  5000.000 1045.62      1
+ 5.41058501E+00 2.00263825E-02-7.61239804E-06 1.39154770E-09-9.73742777E-14    2
+ 8.96473423E+03-2.75748854E+00 3.05546653E+00 1.54360527E-02 1.84824829E-05    3
+-2.76851842E-08 9.82878730E-12 1.02006877E+04 1.22646995E+01                   4
+
+! Thermo group additivity estimation: group(Cs-CsCsHH) + group(Cs-CsHHH) + group(Cs-CsHHH) + radical(RCCJ)
+C3H7(23)                H   7C   2CI  1     G   100.000  5000.000 1045.62      1
+ 5.41058501E+00 2.00263825E-02-7.61239804E-06 1.39154770E-09-9.73742777E-14    2
+ 8.96473423E+03-2.75748854E+00 3.05546653E+00 1.54360527E-02 1.84824829E-05    3
+-2.76851842E-08 9.82878730E-12 1.02006877E+04 1.22646995E+01                   4
+
+! Thermo group additivity estimation: group(Cs-CsCsHH) + group(Cs-CsHHH) + group(Cs-CsHHH) + radical(RCCJ)
+C3H7(24)                H   7CI  1C   2     G   100.000  5000.000 1045.62      1
+ 5.41058501E+00 2.00263825E-02-7.61239804E-06 1.39154770E-09-9.73742777E-14    2
+ 8.96473423E+03-2.75748854E+00 3.05546653E+00 1.54360527E-02 1.84824829E-05    3
+-2.76851842E-08 9.82878730E-12 1.02006877E+04 1.22646995E+01                   4
+
+! Thermo group additivity estimation: group(Cds-CdsHH) + group(Cds-CdsHH)
+C2H4(25)                H   4C   2          G   100.000  5000.000  995.51      1
+ 4.67085526E+00 8.60921078E-03-2.49294764E-06 4.46999734E-10-3.36777403E-14    2
+ 4.12352565E+03-3.64212239E+00 3.94120176E+00-3.67118223E-03 3.89318127E-05    3
+-4.26436552E-08 1.46422648E-11 5.02259745E+03 3.66072426E+00                   4
+
+! Thermo group additivity estimation: group(Cds-CdsHH) + group(Cds-CdsHH)
+C2H4(26)                H   4CI  2          G   100.000  5000.000  995.51      1
+ 4.67085526E+00 8.60921078E-03-2.49294764E-06 4.46999734E-10-3.36777403E-14    2
+ 4.12352565E+03-3.64212239E+00 3.94120176E+00-3.67118223E-03 3.89318127E-05    3
+-4.26436552E-08 1.46422648E-11 5.02259745E+03 3.66072426E+00                   4
+
+! Thermo group additivity estimation: group(Cds-CdsHH) + group(Cds-CdsHH)
+C2H4(27)                H   4C   1CI  1     G   100.000  5000.000  995.51      1
+ 4.67085526E+00 8.60921078E-03-2.49294764E-06 4.46999734E-10-3.36777403E-14    2
+ 4.12352565E+03-2.94897521E+00 3.94120176E+00-3.67118223E-03 3.89318127E-05    3
+-4.26436552E-08 1.46422648E-11 5.02259745E+03 4.35387144E+00                   4
+
+! Thermo library: primaryThermoLibrary
+C(28)                   H   4C   1          G   100.000  5000.000 1152.30      1
+ 1.16922636E+00 1.10302009E-02-4.33533679E-06 7.74721494E-10-5.21983313E-14    2
+-9.83648665E+03 1.25106136E+01 4.16383675E+00-4.88563715E-03 2.35694470E-05    3
+-1.95274263E-08 5.25456130E-12-1.01601154E+04-7.70825147E-01                   4
+
+! Thermo library: primaryThermoLibrary
+C(29)                   H   4CI  1          G   100.000  5000.000 1152.30      1
+ 1.16922636E+00 1.10302009E-02-4.33533679E-06 7.74721494E-10-5.21983313E-14    2
+-9.83648665E+03 1.25106136E+01 4.16383675E+00-4.88563715E-03 2.35694470E-05    3
+-1.95274263E-08 5.25456130E-12-1.01601154E+04-7.70825147E-01                   4
+
+! Thermo library: primaryThermoLibrary
+H2(30)                  H   2               G   100.000  5000.000 1868.91      1
+ 3.02238052E+00 2.79366110E-04 3.04932690E-07-8.48347629E-11 6.51472706E-15    2
+-7.32268967E+02-1.27234787E+00 3.43302396E+00 2.33436767E-04-3.26747700E-07    3
+ 3.78973711E-10-8.74287705E-14-1.03122996E+03-3.89944701E+00                   4
+
+END
+
+
+
+REACTIONS    KCAL/MOLE   MOLES
+
+! Reaction index: Chemkin #1; RMG #1
+! Template reaction: Disproportionation
+! Flux pairs: C2H5(10), C2H4(25); CH3(14), C(28); 
+! Exact match found for rate rule [C_methyl;Cmethyl_Csrad]
+! Euclidian distance = 0
+! Multiplied by reaction path degeneracy 3.0Multiplied by reaction path degeneracy 3.0
+C2H5(10)+CH3(14)=C2H4(25)+C(28)                     6.570000e+14 -0.680    0.000    
+
+! Reaction index: Chemkin #2; RMG #2
+! Template reaction: R_Recombination
+! Flux pairs: C2H5(10), C3H8(1); CH3(14), C3H8(1); 
+! Matched reaction 21 CH3 + C2H5 (=) C3H8 in R_Recombination/training
+! This reaction matched rate rule [C_rad/H2/Cs;C_methyl]
+C2H5(10)+CH3(14)=C3H8(1)                            1.230000e+15 -0.562    0.021    
+
+! Reaction index: Chemkin #3; RMG #3
+! Template reaction: Disproportionation
+! Flux pairs: C2H5(10), C2H4(25); CH3(15), C(29); 
+! Exact match found for rate rule [C_methyl;Cmethyl_Csrad]
+! Euclidian distance = 0
+! Multiplied by reaction path degeneracy 3.0Multiplied by reaction path degeneracy 3.0
+C2H5(10)+CH3(15)=C2H4(25)+C(29)                     6.564748e+14 -0.680    0.000    
+
+! Reaction index: Chemkin #4; RMG #4
+! Template reaction: R_Recombination
+! Flux pairs: C2H5(10), CCC(5); CH3(15), CCC(5); 
+! Matched reaction 21 CH3 + C2H5 (=) C3H8 in R_Recombination/training
+! This reaction matched rate rule [C_rad/H2/Cs;C_methyl]
+C2H5(10)+CH3(15)=CCC(5)                             1.206299e+15 -0.562    0.021    
+
+! Reaction index: Chemkin #5; RMG #5
+! Template reaction: Disproportionation
+! Flux pairs: C2H5(11), C2H4(26); CH3(14), C(28); 
+! Exact match found for rate rule [C_methyl;Cmethyl_Csrad]
+! Euclidian distance = 0
+! Multiplied by reaction path degeneracy 3.0Multiplied by reaction path degeneracy 3.0
+C2H5(11)+CH3(14)=C2H4(26)+C(28)                     6.564748e+14 -0.680    0.000    
+
+! Reaction index: Chemkin #6; RMG #6
+! Template reaction: R_Recombination
+! Flux pairs: C2H5(11), CCC(4); CH3(14), CCC(4); 
+! Matched reaction 21 CH3 + C2H5 (=) C3H8 in R_Recombination/training
+! This reaction matched rate rule [C_rad/H2/Cs;C_methyl]
+C2H5(11)+CH3(14)=CCC(4)                             1.206299e+15 -0.562    0.021    
+
+! Reaction index: Chemkin #7; RMG #7
+! Template reaction: Disproportionation
+! Flux pairs: C2H5(11), C2H4(26); CH3(15), C(29); 
+! Exact match found for rate rule [C_methyl;Cmethyl_Csrad]
+! Euclidian distance = 0
+! Multiplied by reaction path degeneracy 3.0Multiplied by reaction path degeneracy 3.0
+C2H5(11)+CH3(15)=C2H4(26)+C(29)                     6.559894e+14 -0.680    0.000    
+
+! Reaction index: Chemkin #8; RMG #8
+! Template reaction: R_Recombination
+! Flux pairs: C2H5(11), CCC(2); CH3(15), CCC(2); 
+! Matched reaction 21 CH3 + C2H5 (=) C3H8 in R_Recombination/training
+! This reaction matched rate rule [C_rad/H2/Cs;C_methyl]
+C2H5(11)+CH3(15)=CCC(2)                             1.182122e+15 -0.562    0.021    
+
+! Reaction index: Chemkin #9; RMG #9
+! Template reaction: Disproportionation
+! Flux pairs: C2H5(12), C2H4(27); CH3(14), C(28); 
+! Exact match found for rate rule [C_methyl;Cmethyl_Csrad]
+! Euclidian distance = 0
+! Multiplied by reaction path degeneracy 3.0Multiplied by reaction path degeneracy 3.0
+C2H5(12)+CH3(14)=C2H4(27)+C(28)                     6.570000e+14 -0.680    0.000    
+
+! Reaction index: Chemkin #10; RMG #10
+! Template reaction: R_Recombination
+! Flux pairs: C2H5(12), CCC(6); CH3(14), CCC(6); 
+! Matched reaction 21 CH3 + C2H5 (=) C3H8 in R_Recombination/training
+! This reaction matched rate rule [C_rad/H2/Cs;C_methyl]
+C2H5(12)+CH3(14)=CCC(6)                             1.206299e+15 -0.562    0.021    
+
+! Reaction index: Chemkin #11; RMG #11
+! Template reaction: Disproportionation
+! Flux pairs: C2H5(12), C2H4(27); CH3(15), C(29); 
+! Exact match found for rate rule [C_methyl;Cmethyl_Csrad]
+! Euclidian distance = 0
+! Multiplied by reaction path degeneracy 3.0Multiplied by reaction path degeneracy 3.0
+C2H5(12)+CH3(15)=C2H4(27)+C(29)                     6.564748e+14 -0.680    0.000    
+
+! Reaction index: Chemkin #12; RMG #12
+! Template reaction: R_Recombination
+! Flux pairs: C2H5(12), CCC(4); CH3(15), CCC(4); 
+! Matched reaction 21 CH3 + C2H5 (=) C3H8 in R_Recombination/training
+! This reaction matched rate rule [C_rad/H2/Cs;C_methyl]
+C2H5(12)+CH3(15)=CCC(4)                             1.182122e+15 -0.562    0.021    
+
+! Reaction index: Chemkin #13; RMG #13
+! Template reaction: Disproportionation
+! Flux pairs: C2H5(13), C2H4(27); CH3(14), C(28); 
+! Exact match found for rate rule [C_methyl;Cmethyl_Csrad]
+! Euclidian distance = 0
+! Multiplied by reaction path degeneracy 3.0Multiplied by reaction path degeneracy 3.0
+C2H5(13)+CH3(14)=C2H4(27)+C(28)                     6.564748e+14 -0.680    0.000    
+
+! Reaction index: Chemkin #14; RMG #14
+! Template reaction: R_Recombination
+! Flux pairs: C2H5(13), CCC(5); CH3(14), CCC(5); 
+! Matched reaction 21 CH3 + C2H5 (=) C3H8 in R_Recombination/training
+! This reaction matched rate rule [C_rad/H2/Cs;C_methyl]
+C2H5(13)+CH3(14)=CCC(5)                             1.230000e+15 -0.562    0.021    
+
+! Reaction index: Chemkin #15; RMG #15
+! Template reaction: Disproportionation
+! Flux pairs: C2H5(13), C2H4(27); CH3(15), C(29); 
+! Exact match found for rate rule [C_methyl;Cmethyl_Csrad]
+! Euclidian distance = 0
+! Multiplied by reaction path degeneracy 3.0Multiplied by reaction path degeneracy 3.0
+C2H5(13)+CH3(15)=C2H4(27)+C(29)                     6.559894e+14 -0.680    0.000    
+
+! Reaction index: Chemkin #16; RMG #16
+! Template reaction: R_Recombination
+! Flux pairs: C2H5(13), CCC(3); CH3(15), CCC(3); 
+! Matched reaction 21 CH3 + C2H5 (=) C3H8 in R_Recombination/training
+! This reaction matched rate rule [C_rad/H2/Cs;C_methyl]
+C2H5(13)+CH3(15)=CCC(3)                             1.206299e+15 -0.562    0.021    
+
+! Reaction index: Chemkin #17; RMG #17
+! Template reaction: R_Addition_MultipleBond
+! Flux pairs: H(16), C2H5(10); C2H4(25), C2H5(10); 
+! Exact match found for rate rule [Cds-HH_Cds-HH;HJ]
+! Euclidian distance = 0
+! Multiplied by reaction path degeneracy 2.0Multiplied by reaction path degeneracy 2.0
+H(16)+C2H4(25)=C2H5(10)                             4.620000e+08 1.640     1.010    
+
+! Reaction index: Chemkin #18; RMG #18
+! Template reaction: R_Addition_MultipleBond
+! Flux pairs: H(16), C2H5(11); C2H4(26), C2H5(11); 
+! Exact match found for rate rule [Cds-HH_Cds-HH;HJ]
+! Euclidian distance = 0
+! Multiplied by reaction path degeneracy 2.0Multiplied by reaction path degeneracy 2.0
+H(16)+C2H4(26)=C2H5(11)                             4.606328e+08 1.640     1.010    
+
+! Reaction index: Chemkin #19; RMG #19
+! Template reaction: R_Addition_MultipleBond
+! Flux pairs: H(16), C2H5(12); C2H4(27), C2H5(12); 
+! Exact match found for rate rule [Cds-HH_Cds-HH;HJ]
+! Euclidian distance = 0
+! Multiplied by reaction path degeneracy 2.0Multiplied by reaction path degeneracy 2.0
+H(16)+C2H4(27)=C2H5(12)                             2.310000e+08 1.640     1.010    
+
+! Reaction index: Chemkin #20; RMG #20
+! Template reaction: R_Addition_MultipleBond
+! Flux pairs: H(16), C2H5(13); C2H4(27), C2H5(13); 
+! Exact match found for rate rule [Cds-HH_Cds-HH;HJ]
+! Euclidian distance = 0
+! Multiplied by reaction path degeneracy 2.0Multiplied by reaction path degeneracy 2.0
+H(16)+C2H4(27)=C2H5(13)                             2.303164e+08 1.640     1.010    
+
+! Reaction index: Chemkin #21; RMG #21
+! Template reaction: Disproportionation
+! Flux pairs: C2H5(10), C2H4(25); H(16), H2(30); 
+! Exact match found for rate rule [H_rad;Cmethyl_Csrad]
+! Euclidian distance = 0
+! Multiplied by reaction path degeneracy 3.0Multiplied by reaction path degeneracy 3.0
+C2H5(10)+H(16)=C2H4(25)+H2(30)                      1.083000e+13 0.000     0.000    
+
+! Reaction index: Chemkin #22; RMG #22
+! Template reaction: R_Recombination
+! Flux pairs: C2H5(10), CC(7); H(16), CC(7); 
+! Exact match found for rate rule [C_rad/H2/Cs;H_rad]
+! Euclidian distance = 0
+C2H5(10)+H(16)=CC(7)                                1.000000e+14 0.000     0.000    
+
+! Reaction index: Chemkin #23; RMG #23
+! Template reaction: Disproportionation
+! Flux pairs: C2H5(11), C2H4(26); H(16), H2(30); 
+! Exact match found for rate rule [H_rad;Cmethyl_Csrad]
+! Euclidian distance = 0
+! Multiplied by reaction path degeneracy 3.0Multiplied by reaction path degeneracy 3.0
+C2H5(11)+H(16)=C2H4(26)+H2(30)                      1.080240e+13 0.000     0.000    
+
+! Reaction index: Chemkin #24; RMG #24
+! Template reaction: R_Recombination
+! Flux pairs: C2H5(11), CC(8); H(16), CC(8); 
+! Exact match found for rate rule [C_rad/H2/Cs;H_rad]
+! Euclidian distance = 0
+C2H5(11)+H(16)=CC(8)                                9.970406e+13 0.000     0.000    
+
+! Reaction index: Chemkin #25; RMG #25
+! Template reaction: Disproportionation
+! Flux pairs: C2H5(12), C2H4(27); H(16), H2(30); 
+! Exact match found for rate rule [H_rad;Cmethyl_Csrad]
+! Euclidian distance = 0
+! Multiplied by reaction path degeneracy 3.0Multiplied by reaction path degeneracy 3.0
+C2H5(12)+H(16)=C2H4(27)+H2(30)                      1.083000e+13 0.000     0.000    
+
+! Reaction index: Chemkin #26; RMG #26
+! Template reaction: R_Recombination
+! Flux pairs: C2H5(12), CC(9); H(16), CC(9); 
+! Exact match found for rate rule [C_rad/H2/Cs;H_rad]
+! Euclidian distance = 0
+C2H5(12)+H(16)=CC(9)                                9.970406e+13 0.000     0.000    
+
+! Reaction index: Chemkin #27; RMG #27
+! Template reaction: Disproportionation
+! Flux pairs: C2H5(13), C2H4(27); H(16), H2(30); 
+! Exact match found for rate rule [H_rad;Cmethyl_Csrad]
+! Euclidian distance = 0
+! Multiplied by reaction path degeneracy 3.0Multiplied by reaction path degeneracy 3.0
+C2H5(13)+H(16)=C2H4(27)+H2(30)                      1.080240e+13 0.000     0.000    
+
+! Reaction index: Chemkin #28; RMG #28
+! Template reaction: R_Recombination
+! Flux pairs: C2H5(13), CC(9); H(16), CC(9); 
+! Exact match found for rate rule [C_rad/H2/Cs;H_rad]
+! Euclidian distance = 0
+C2H5(13)+H(16)=CC(9)                                1.000000e+14 0.000     0.000    
+
+! Reaction index: Chemkin #29; RMG #29
+! Template reaction: R_Recombination
+! Flux pairs: H(16), H2(30); H(16), H2(30); 
+! Exact match found for rate rule [H_rad;H_rad]
+! Euclidian distance = 0
+H(16)+H(16)=H2(30)                                  2.725000e+10 0.000     1.500    
+
+! Reaction index: Chemkin #30; RMG #30
+! Template reaction: R_Recombination
+! Flux pairs: H(16), C3H8(1); C3H7(17), C3H8(1); 
+! Exact match found for rate rule [C_rad/H2/Cs;H_rad]
+! Euclidian distance = 0
+H(16)+C3H7(17)=C3H8(1)                              1.000000e+14 0.000     0.000    
+
+! Reaction index: Chemkin #31; RMG #31
+! Template reaction: R_Recombination
+! Flux pairs: H(16), CCC(2); C3H7(18), CCC(2); 
+! Exact match found for rate rule [C_rad/H2/Cs;H_rad]
+! Euclidian distance = 0
+H(16)+C3H7(18)=CCC(2)                               9.970406e+13 0.000     0.000    
+
+! Reaction index: Chemkin #32; RMG #32
+! Template reaction: R_Recombination
+! Flux pairs: H(16), CCC(3); C3H7(19), CCC(3); 
+! Exact match found for rate rule [C_rad/H2/Cs;H_rad]
+! Euclidian distance = 0
+H(16)+C3H7(19)=CCC(3)                               9.970406e+13 0.000     0.000    
+
+! Reaction index: Chemkin #33; RMG #33
+! Template reaction: R_Recombination
+! Flux pairs: H(16), CCC(4); C3H7(20), CCC(4); 
+! Exact match found for rate rule [C_rad/H2/Cs;H_rad]
+! Euclidian distance = 0
+H(16)+C3H7(20)=CCC(4)                               9.970406e+13 0.000     0.000    
+
+! Reaction index: Chemkin #34; RMG #34
+! Template reaction: R_Recombination
+! Flux pairs: H(16), CCC(5); C3H7(21), CCC(5); 
+! Exact match found for rate rule [C_rad/H2/Cs;H_rad]
+! Euclidian distance = 0
+H(16)+C3H7(21)=CCC(5)                               9.970406e+13 0.000     0.000    
+
+! Reaction index: Chemkin #35; RMG #35
+! Template reaction: R_Recombination
+! Flux pairs: H(16), CCC(4); C3H7(22), CCC(4); 
+! Exact match found for rate rule [C_rad/H2/Cs;H_rad]
+! Euclidian distance = 0
+H(16)+C3H7(22)=CCC(4)                               1.000000e+14 0.000     0.000    
+
+! Reaction index: Chemkin #36; RMG #36
+! Template reaction: R_Recombination
+! Flux pairs: H(16), CCC(5); C3H7(23), CCC(5); 
+! Exact match found for rate rule [C_rad/H2/Cs;H_rad]
+! Euclidian distance = 0
+H(16)+C3H7(23)=CCC(5)                               1.000000e+14 0.000     0.000    
+
+! Reaction index: Chemkin #37; RMG #37
+! Template reaction: R_Recombination
+! Flux pairs: H(16), CCC(6); C3H7(24), CCC(6); 
+! Exact match found for rate rule [C_rad/H2/Cs;H_rad]
+! Euclidian distance = 0
+H(16)+C3H7(24)=CCC(6)                               1.000000e+14 0.000     0.000    
+
+! Reaction index: Chemkin #38; RMG #38
+! Template reaction: H_Abstraction
+! Flux pairs: C3H7(17), C3H8(1); H2(30), H(16); 
+! Exact match found for rate rule [H2;C_rad/H2/Cs]
+! Euclidian distance = 0
+! Multiplied by reaction path degeneracy 2.0Multiplied by reaction path degeneracy 2.0
+C3H7(17)+H2(30)=H(16)+C3H8(1)                       3.840000e-03 4.340     9.000    
+
+! Reaction index: Chemkin #39; RMG #39
+! Template reaction: H_Abstraction
+! Flux pairs: C3H7(18), CCC(2); H2(30), H(16); 
+! Exact match found for rate rule [H2;C_rad/H2/Cs]
+! Euclidian distance = 0
+! Multiplied by reaction path degeneracy 2.0Multiplied by reaction path degeneracy 2.0
+C3H7(18)+H2(30)=CCC(2)+H(16)                        3.830213e-03 4.340     9.000    
+
+! Reaction index: Chemkin #40; RMG #40
+! Template reaction: H_Abstraction
+! Flux pairs: C3H7(19), CCC(3); H2(30), H(16); 
+! Exact match found for rate rule [H2;C_rad/H2/Cs]
+! Euclidian distance = 0
+! Multiplied by reaction path degeneracy 2.0Multiplied by reaction path degeneracy 2.0
+C3H7(19)+H2(30)=CCC(3)+H(16)                        3.830213e-03 4.340     9.000    
+
+! Reaction index: Chemkin #41; RMG #41
+! Template reaction: H_Abstraction
+! Flux pairs: C3H7(20), CCC(4); H2(30), H(16); 
+! Exact match found for rate rule [H2;C_rad/H2/Cs]
+! Euclidian distance = 0
+! Multiplied by reaction path degeneracy 2.0Multiplied by reaction path degeneracy 2.0
+C3H7(20)+H2(30)=CCC(4)+H(16)                        3.830213e-03 4.340     9.000    
+
+! Reaction index: Chemkin #42; RMG #42
+! Template reaction: H_Abstraction
+! Flux pairs: C3H7(21), CCC(5); H2(30), H(16); 
+! Exact match found for rate rule [H2;C_rad/H2/Cs]
+! Euclidian distance = 0
+! Multiplied by reaction path degeneracy 2.0Multiplied by reaction path degeneracy 2.0
+C3H7(21)+H2(30)=CCC(5)+H(16)                        3.830213e-03 4.340     9.000    
+
+! Reaction index: Chemkin #43; RMG #43
+! Template reaction: H_Abstraction
+! Flux pairs: C3H7(22), CCC(4); H2(30), H(16); 
+! Exact match found for rate rule [H2;C_rad/H2/Cs]
+! Euclidian distance = 0
+! Multiplied by reaction path degeneracy 2.0Multiplied by reaction path degeneracy 2.0
+C3H7(22)+H2(30)=CCC(4)+H(16)                        3.840000e-03 4.340     9.000    
+
+! Reaction index: Chemkin #44; RMG #44
+! Template reaction: H_Abstraction
+! Flux pairs: C3H7(23), CCC(5); H2(30), H(16); 
+! Exact match found for rate rule [H2;C_rad/H2/Cs]
+! Euclidian distance = 0
+! Multiplied by reaction path degeneracy 2.0Multiplied by reaction path degeneracy 2.0
+C3H7(23)+H2(30)=CCC(5)+H(16)                        3.840000e-03 4.340     9.000    
+
+! Reaction index: Chemkin #45; RMG #45
+! Template reaction: H_Abstraction
+! Flux pairs: C3H7(24), CCC(6); H2(30), H(16); 
+! Exact match found for rate rule [H2;C_rad/H2/Cs]
+! Euclidian distance = 0
+! Multiplied by reaction path degeneracy 2.0Multiplied by reaction path degeneracy 2.0
+C3H7(24)+H2(30)=CCC(6)+H(16)                        3.840000e-03 4.340     9.000    
+
+! Reaction index: Chemkin #46; RMG #46
+! Template reaction: Disproportionation
+! Flux pairs: C2H5(10), C2H4(25); C3H7(17), C3H8(1); 
+! Exact match found for rate rule [C_rad/H2/Cs;Cmethyl_Csrad]
+! Euclidian distance = 0
+! Multiplied by reaction path degeneracy 3.0Multiplied by reaction path degeneracy 3.0
+C2H5(10)+C3H7(17)=C2H4(25)+C3H8(1)                  6.900000e+13 -0.350    0.000    
+
+! Reaction index: Chemkin #47; RMG #47
+! Template reaction: Disproportionation
+! Flux pairs: C2H5(10), C2H4(25); C3H7(18), CCC(2); 
+! Exact match found for rate rule [C_rad/H2/Cs;Cmethyl_Csrad]
+! Euclidian distance = 0
+! Multiplied by reaction path degeneracy 3.0Multiplied by reaction path degeneracy 3.0
+C2H5(10)+C3H7(18)=CCC(2)+C2H4(25)                   6.894485e+13 -0.350    0.000    
+
+! Reaction index: Chemkin #48; RMG #48
+! Template reaction: Disproportionation
+! Flux pairs: C2H5(10), C2H4(25); C3H7(19), CCC(3); 
+! Exact match found for rate rule [C_rad/H2/Cs;Cmethyl_Csrad]
+! Euclidian distance = 0
+! Multiplied by reaction path degeneracy 3.0Multiplied by reaction path degeneracy 3.0
+C2H5(10)+C3H7(19)=CCC(3)+C2H4(25)                   6.894485e+13 -0.350    0.000    
+
+! Reaction index: Chemkin #49; RMG #49
+! Template reaction: Disproportionation
+! Flux pairs: C2H5(10), C2H4(25); C3H7(20), CCC(4); 
+! Exact match found for rate rule [C_rad/H2/Cs;Cmethyl_Csrad]
+! Euclidian distance = 0
+! Multiplied by reaction path degeneracy 3.0Multiplied by reaction path degeneracy 3.0
+C2H5(10)+C3H7(20)=CCC(4)+C2H4(25)                   6.894485e+13 -0.350    0.000    
+
+! Reaction index: Chemkin #50; RMG #50
+! Template reaction: Disproportionation
+! Flux pairs: C2H5(10), C2H4(25); C3H7(21), CCC(5); 
+! Exact match found for rate rule [C_rad/H2/Cs;Cmethyl_Csrad]
+! Euclidian distance = 0
+! Multiplied by reaction path degeneracy 3.0Multiplied by reaction path degeneracy 3.0
+C2H5(10)+C3H7(21)=CCC(5)+C2H4(25)                   6.894485e+13 -0.350    0.000    
+
+! Reaction index: Chemkin #51; RMG #51
+! Template reaction: Disproportionation
+! Flux pairs: C2H5(10), C2H4(25); C3H7(22), CCC(4); 
+! Exact match found for rate rule [C_rad/H2/Cs;Cmethyl_Csrad]
+! Euclidian distance = 0
+! Multiplied by reaction path degeneracy 3.0Multiplied by reaction path degeneracy 3.0
+C2H5(10)+C3H7(22)=CCC(4)+C2H4(25)                   6.900000e+13 -0.350    0.000    
+
+! Reaction index: Chemkin #52; RMG #52
+! Template reaction: Disproportionation
+! Flux pairs: C2H5(10), C2H4(25); C3H7(23), CCC(5); 
+! Exact match found for rate rule [C_rad/H2/Cs;Cmethyl_Csrad]
+! Euclidian distance = 0
+! Multiplied by reaction path degeneracy 3.0Multiplied by reaction path degeneracy 3.0
+C2H5(10)+C3H7(23)=CCC(5)+C2H4(25)                   6.900000e+13 -0.350    0.000    
+
+! Reaction index: Chemkin #53; RMG #53
+! Template reaction: Disproportionation
+! Flux pairs: C2H5(10), C2H4(25); C3H7(24), CCC(6); 
+! Exact match found for rate rule [C_rad/H2/Cs;Cmethyl_Csrad]
+! Euclidian distance = 0
+! Multiplied by reaction path degeneracy 3.0Multiplied by reaction path degeneracy 3.0
+C2H5(10)+C3H7(24)=CCC(6)+C2H4(25)                   6.900000e+13 -0.350    0.000    
+
+! Reaction index: Chemkin #54; RMG #54
+! Template reaction: Disproportionation
+! Flux pairs: C2H5(11), C2H4(26); C3H7(17), C3H8(1); 
+! Exact match found for rate rule [C_rad/H2/Cs;Cmethyl_Csrad]
+! Euclidian distance = 0
+! Multiplied by reaction path degeneracy 3.0Multiplied by reaction path degeneracy 3.0
+C2H5(11)+C3H7(17)=C2H4(26)+C3H8(1)                  6.894485e+13 -0.350    0.000    
+
+! Reaction index: Chemkin #55; RMG #55
+! Template reaction: Disproportionation
+! Flux pairs: C2H5(11), C2H4(26); C3H7(18), CCC(2); 
+! Exact match found for rate rule [C_rad/H2/Cs;Cmethyl_Csrad]
+! Euclidian distance = 0
+! Multiplied by reaction path degeneracy 3.0Multiplied by reaction path degeneracy 3.0
+C2H5(11)+C3H7(18)=CCC(2)+C2H4(26)                   6.889386e+13 -0.350    0.000    
+
+! Reaction index: Chemkin #56; RMG #56
+! Template reaction: Disproportionation
+! Flux pairs: C2H5(11), C2H4(26); C3H7(19), CCC(3); 
+! Exact match found for rate rule [C_rad/H2/Cs;Cmethyl_Csrad]
+! Euclidian distance = 0
+! Multiplied by reaction path degeneracy 3.0Multiplied by reaction path degeneracy 3.0
+C2H5(11)+C3H7(19)=CCC(3)+C2H4(26)                   6.889386e+13 -0.350    0.000    
+
+! Reaction index: Chemkin #57; RMG #57
+! Template reaction: Disproportionation
+! Flux pairs: C2H5(11), C2H4(26); C3H7(20), CCC(4); 
+! Exact match found for rate rule [C_rad/H2/Cs;Cmethyl_Csrad]
+! Euclidian distance = 0
+! Multiplied by reaction path degeneracy 3.0Multiplied by reaction path degeneracy 3.0
+C2H5(11)+C3H7(20)=CCC(4)+C2H4(26)                   6.889386e+13 -0.350    0.000    
+
+! Reaction index: Chemkin #58; RMG #58
+! Template reaction: Disproportionation
+! Flux pairs: C2H5(11), C2H4(26); C3H7(21), CCC(5); 
+! Exact match found for rate rule [C_rad/H2/Cs;Cmethyl_Csrad]
+! Euclidian distance = 0
+! Multiplied by reaction path degeneracy 3.0Multiplied by reaction path degeneracy 3.0
+C2H5(11)+C3H7(21)=CCC(5)+C2H4(26)                   6.889386e+13 -0.350    0.000    
+
+! Reaction index: Chemkin #59; RMG #59
+! Template reaction: Disproportionation
+! Flux pairs: C2H5(11), C2H4(26); C3H7(22), CCC(4); 
+! Exact match found for rate rule [C_rad/H2/Cs;Cmethyl_Csrad]
+! Euclidian distance = 0
+! Multiplied by reaction path degeneracy 3.0Multiplied by reaction path degeneracy 3.0
+C2H5(11)+C3H7(22)=CCC(4)+C2H4(26)                   6.894485e+13 -0.350    0.000    
+
+! Reaction index: Chemkin #60; RMG #60
+! Template reaction: Disproportionation
+! Flux pairs: C2H5(11), C2H4(26); C3H7(23), CCC(5); 
+! Exact match found for rate rule [C_rad/H2/Cs;Cmethyl_Csrad]
+! Euclidian distance = 0
+! Multiplied by reaction path degeneracy 3.0Multiplied by reaction path degeneracy 3.0
+C2H5(11)+C3H7(23)=CCC(5)+C2H4(26)                   6.894485e+13 -0.350    0.000    
+
+! Reaction index: Chemkin #61; RMG #61
+! Template reaction: Disproportionation
+! Flux pairs: C2H5(11), C2H4(26); C3H7(24), CCC(6); 
+! Exact match found for rate rule [C_rad/H2/Cs;Cmethyl_Csrad]
+! Euclidian distance = 0
+! Multiplied by reaction path degeneracy 3.0Multiplied by reaction path degeneracy 3.0
+C2H5(11)+C3H7(24)=CCC(6)+C2H4(26)                   6.894485e+13 -0.350    0.000    
+
+! Reaction index: Chemkin #62; RMG #62
+! Template reaction: Disproportionation
+! Flux pairs: C2H5(12), C2H4(27); C3H7(17), C3H8(1); 
+! Exact match found for rate rule [C_rad/H2/Cs;Cmethyl_Csrad]
+! Euclidian distance = 0
+! Multiplied by reaction path degeneracy 3.0Multiplied by reaction path degeneracy 3.0
+C2H5(12)+C3H7(17)=C2H4(27)+C3H8(1)                  6.900000e+13 -0.350    0.000    
+
+! Reaction index: Chemkin #63; RMG #63
+! Template reaction: Disproportionation
+! Flux pairs: C2H5(12), C2H4(27); C3H7(18), CCC(2); 
+! Exact match found for rate rule [C_rad/H2/Cs;Cmethyl_Csrad]
+! Euclidian distance = 0
+! Multiplied by reaction path degeneracy 3.0Multiplied by reaction path degeneracy 3.0
+C2H5(12)+C3H7(18)=CCC(2)+C2H4(27)                   6.894485e+13 -0.350    0.000    
+
+! Reaction index: Chemkin #64; RMG #64
+! Template reaction: Disproportionation
+! Flux pairs: C2H5(12), C2H4(27); C3H7(19), CCC(3); 
+! Exact match found for rate rule [C_rad/H2/Cs;Cmethyl_Csrad]
+! Euclidian distance = 0
+! Multiplied by reaction path degeneracy 3.0Multiplied by reaction path degeneracy 3.0
+C2H5(12)+C3H7(19)=CCC(3)+C2H4(27)                   6.894485e+13 -0.350    0.000    
+
+! Reaction index: Chemkin #65; RMG #65
+! Template reaction: Disproportionation
+! Flux pairs: C2H5(12), C2H4(27); C3H7(20), CCC(4); 
+! Exact match found for rate rule [C_rad/H2/Cs;Cmethyl_Csrad]
+! Euclidian distance = 0
+! Multiplied by reaction path degeneracy 3.0Multiplied by reaction path degeneracy 3.0
+C2H5(12)+C3H7(20)=CCC(4)+C2H4(27)                   6.894485e+13 -0.350    0.000    
+
+! Reaction index: Chemkin #66; RMG #66
+! Template reaction: Disproportionation
+! Flux pairs: C2H5(12), C2H4(27); C3H7(21), CCC(5); 
+! Exact match found for rate rule [C_rad/H2/Cs;Cmethyl_Csrad]
+! Euclidian distance = 0
+! Multiplied by reaction path degeneracy 3.0Multiplied by reaction path degeneracy 3.0
+C2H5(12)+C3H7(21)=CCC(5)+C2H4(27)                   6.894485e+13 -0.350    0.000    
+
+! Reaction index: Chemkin #67; RMG #67
+! Template reaction: Disproportionation
+! Flux pairs: C2H5(12), C2H4(27); C3H7(22), CCC(4); 
+! Exact match found for rate rule [C_rad/H2/Cs;Cmethyl_Csrad]
+! Euclidian distance = 0
+! Multiplied by reaction path degeneracy 3.0Multiplied by reaction path degeneracy 3.0
+C2H5(12)+C3H7(22)=CCC(4)+C2H4(27)                   6.900000e+13 -0.350    0.000    
+
+! Reaction index: Chemkin #68; RMG #68
+! Template reaction: Disproportionation
+! Flux pairs: C2H5(12), C2H4(27); C3H7(23), CCC(5); 
+! Exact match found for rate rule [C_rad/H2/Cs;Cmethyl_Csrad]
+! Euclidian distance = 0
+! Multiplied by reaction path degeneracy 3.0Multiplied by reaction path degeneracy 3.0
+C2H5(12)+C3H7(23)=CCC(5)+C2H4(27)                   6.900000e+13 -0.350    0.000    
+
+! Reaction index: Chemkin #69; RMG #69
+! Template reaction: Disproportionation
+! Flux pairs: C2H5(12), C2H4(27); C3H7(24), CCC(6); 
+! Exact match found for rate rule [C_rad/H2/Cs;Cmethyl_Csrad]
+! Euclidian distance = 0
+! Multiplied by reaction path degeneracy 3.0Multiplied by reaction path degeneracy 3.0
+C2H5(12)+C3H7(24)=CCC(6)+C2H4(27)                   6.900000e+13 -0.350    0.000    
+
+! Reaction index: Chemkin #70; RMG #70
+! Template reaction: Disproportionation
+! Flux pairs: C2H5(13), C2H4(27); C3H7(17), C3H8(1); 
+! Exact match found for rate rule [C_rad/H2/Cs;Cmethyl_Csrad]
+! Euclidian distance = 0
+! Multiplied by reaction path degeneracy 3.0Multiplied by reaction path degeneracy 3.0
+C2H5(13)+C3H7(17)=C2H4(27)+C3H8(1)                  6.894485e+13 -0.350    0.000    
+
+! Reaction index: Chemkin #71; RMG #71
+! Template reaction: Disproportionation
+! Flux pairs: C2H5(13), C2H4(27); C3H7(18), CCC(2); 
+! Exact match found for rate rule [C_rad/H2/Cs;Cmethyl_Csrad]
+! Euclidian distance = 0
+! Multiplied by reaction path degeneracy 3.0Multiplied by reaction path degeneracy 3.0
+C2H5(13)+C3H7(18)=CCC(2)+C2H4(27)                   6.889386e+13 -0.350    0.000    
+
+! Reaction index: Chemkin #72; RMG #72
+! Template reaction: Disproportionation
+! Flux pairs: C2H5(13), C2H4(27); C3H7(19), CCC(3); 
+! Exact match found for rate rule [C_rad/H2/Cs;Cmethyl_Csrad]
+! Euclidian distance = 0
+! Multiplied by reaction path degeneracy 3.0Multiplied by reaction path degeneracy 3.0
+C2H5(13)+C3H7(19)=CCC(3)+C2H4(27)                   6.889386e+13 -0.350    0.000    
+
+! Reaction index: Chemkin #73; RMG #73
+! Template reaction: Disproportionation
+! Flux pairs: C2H5(13), C2H4(27); C3H7(20), CCC(4); 
+! Exact match found for rate rule [C_rad/H2/Cs;Cmethyl_Csrad]
+! Euclidian distance = 0
+! Multiplied by reaction path degeneracy 3.0Multiplied by reaction path degeneracy 3.0
+C2H5(13)+C3H7(20)=CCC(4)+C2H4(27)                   6.889386e+13 -0.350    0.000    
+
+! Reaction index: Chemkin #74; RMG #74
+! Template reaction: Disproportionation
+! Flux pairs: C2H5(13), C2H4(27); C3H7(21), CCC(5); 
+! Exact match found for rate rule [C_rad/H2/Cs;Cmethyl_Csrad]
+! Euclidian distance = 0
+! Multiplied by reaction path degeneracy 3.0Multiplied by reaction path degeneracy 3.0
+C2H5(13)+C3H7(21)=CCC(5)+C2H4(27)                   6.889386e+13 -0.350    0.000    
+
+! Reaction index: Chemkin #75; RMG #75
+! Template reaction: Disproportionation
+! Flux pairs: C2H5(13), C2H4(27); C3H7(22), CCC(4); 
+! Exact match found for rate rule [C_rad/H2/Cs;Cmethyl_Csrad]
+! Euclidian distance = 0
+! Multiplied by reaction path degeneracy 3.0Multiplied by reaction path degeneracy 3.0
+C2H5(13)+C3H7(22)=CCC(4)+C2H4(27)                   6.894485e+13 -0.350    0.000    
+
+! Reaction index: Chemkin #76; RMG #76
+! Template reaction: Disproportionation
+! Flux pairs: C2H5(13), C2H4(27); C3H7(23), CCC(5); 
+! Exact match found for rate rule [C_rad/H2/Cs;Cmethyl_Csrad]
+! Euclidian distance = 0
+! Multiplied by reaction path degeneracy 3.0Multiplied by reaction path degeneracy 3.0
+C2H5(13)+C3H7(23)=CCC(5)+C2H4(27)                   6.894485e+13 -0.350    0.000    
+
+! Reaction index: Chemkin #77; RMG #77
+! Template reaction: Disproportionation
+! Flux pairs: C2H5(13), C2H4(27); C3H7(24), CCC(6); 
+! Exact match found for rate rule [C_rad/H2/Cs;Cmethyl_Csrad]
+! Euclidian distance = 0
+! Multiplied by reaction path degeneracy 3.0Multiplied by reaction path degeneracy 3.0
+C2H5(13)+C3H7(24)=CCC(6)+C2H4(27)                   6.894485e+13 -0.350    0.000    
+
+! Reaction index: Chemkin #78; RMG #78
+! Template reaction: R_Addition_MultipleBond
+! Flux pairs: CH3(14), C3H7(17); C2H4(25), C3H7(17); 
+! Exact match found for rate rule [Cds-HH_Cds-HH;CsJ-HHH]
+! Euclidian distance = 0
+! Multiplied by reaction path degeneracy 2.0Multiplied by reaction path degeneracy 2.0
+CH3(14)+C2H4(25)=C3H7(17)                           4.180000e+04 2.410     5.630    
+
+! Reaction index: Chemkin #79; RMG #79
+! Template reaction: R_Addition_MultipleBond
+! Flux pairs: CH3(14), C3H7(20); C2H4(26), C3H7(20); 
+! Exact match found for rate rule [Cds-HH_Cds-HH;CsJ-HHH]
+! Euclidian distance = 0
+! Multiplied by reaction path degeneracy 2.0Multiplied by reaction path degeneracy 2.0
+CH3(14)+C2H4(26)=C3H7(20)                           4.099454e+04 2.410     5.630    
+
+! Reaction index: Chemkin #80; RMG #80
+! Template reaction: R_Addition_MultipleBond
+! Flux pairs: CH3(14), C3H7(21); C2H4(27), C3H7(21); 
+! Exact match found for rate rule [Cds-HH_Cds-HH;CsJ-HHH]
+! Euclidian distance = 0
+! Multiplied by reaction path degeneracy 2.0Multiplied by reaction path degeneracy 2.0
+CH3(14)+C2H4(27)=C3H7(21)                           2.090000e+04 2.410     5.630    
+
+! Reaction index: Chemkin #81; RMG #81
+! Template reaction: R_Addition_MultipleBond
+! Flux pairs: CH3(14), C3H7(24); C2H4(27), C3H7(24); 
+! Exact match found for rate rule [Cds-HH_Cds-HH;CsJ-HHH]
+! Euclidian distance = 0
+! Multiplied by reaction path degeneracy 2.0Multiplied by reaction path degeneracy 2.0
+CH3(14)+C2H4(27)=C3H7(24)                           2.049727e+04 2.410     5.630    
+
+! Reaction index: Chemkin #82; RMG #82
+! Template reaction: R_Addition_MultipleBond
+! Flux pairs: CH3(15), C3H7(23); C2H4(25), C3H7(23); 
+! Exact match found for rate rule [Cds-HH_Cds-HH;CsJ-HHH]
+! Euclidian distance = 0
+! Multiplied by reaction path degeneracy 2.0Multiplied by reaction path degeneracy 2.0
+CH3(15)+C2H4(25)=C3H7(23)                           4.099454e+04 2.410     5.630    
+
+! Reaction index: Chemkin #83; RMG #83
+! Template reaction: R_Addition_MultipleBond
+! Flux pairs: CH3(15), C3H7(18); C2H4(26), C3H7(18); 
+! Exact match found for rate rule [Cds-HH_Cds-HH;CsJ-HHH]
+! Euclidian distance = 0
+! Multiplied by reaction path degeneracy 2.0Multiplied by reaction path degeneracy 2.0
+CH3(15)+C2H4(26)=C3H7(18)                           4.017294e+04 2.410     5.630    
+
+! Reaction index: Chemkin #84; RMG #84
+! Template reaction: R_Addition_MultipleBond
+! Flux pairs: CH3(15), C3H7(19); C2H4(27), C3H7(19); 
+! Exact match found for rate rule [Cds-HH_Cds-HH;CsJ-HHH]
+! Euclidian distance = 0
+! Multiplied by reaction path degeneracy 2.0Multiplied by reaction path degeneracy 2.0
+CH3(15)+C2H4(27)=C3H7(19)                           2.049727e+04 2.410     5.630    
+
+! Reaction index: Chemkin #85; RMG #85
+! Template reaction: R_Addition_MultipleBond
+! Flux pairs: CH3(15), C3H7(22); C2H4(27), C3H7(22); 
+! Exact match found for rate rule [Cds-HH_Cds-HH;CsJ-HHH]
+! Euclidian distance = 0
+! Multiplied by reaction path degeneracy 2.0Multiplied by reaction path degeneracy 2.0
+CH3(15)+C2H4(27)=C3H7(22)                           2.008647e+04 2.410     5.630    
+
+! Reaction index: Chemkin #86; RMG #86
+! Template reaction: H_Abstraction
+! Flux pairs: C3H7(17), C3H8(1); C(28), CH3(14); 
+! Exact match found for rate rule [C_methane;C_rad/H2/Cs]
+! Euclidian distance = 0
+! Multiplied by reaction path degeneracy 4.0Multiplied by reaction path degeneracy 4.0
+C3H7(17)+C(28)=CH3(14)+C3H8(1)                      8.640000e-02 4.140     12.560   
+
+! Reaction index: Chemkin #87; RMG #87
+! Template reaction: H_Abstraction
+! Flux pairs: C3H7(17), C3H8(1); C(29), CH3(15); 
+! Exact match found for rate rule [C_methane;C_rad/H2/Cs]
+! Euclidian distance = 0
+! Multiplied by reaction path degeneracy 4.0Multiplied by reaction path degeneracy 4.0
+C3H7(17)+C(29)=CH3(15)+C3H8(1)                      8.633094e-02 4.140     12.560   
+
+! Reaction index: Chemkin #88; RMG #88
+! Template reaction: H_Abstraction
+! Flux pairs: C3H7(18), CCC(2); C(28), CH3(14); 
+! Exact match found for rate rule [C_methane;C_rad/H2/Cs]
+! Euclidian distance = 0
+! Multiplied by reaction path degeneracy 4.0Multiplied by reaction path degeneracy 4.0
+C3H7(18)+C(28)=CCC(2)+CH3(14)                       8.633094e-02 4.140     12.560   
+
+! Reaction index: Chemkin #89; RMG #89
+! Template reaction: H_Abstraction
+! Flux pairs: C3H7(18), CCC(2); C(29), CH3(15); 
+! Exact match found for rate rule [C_methane;C_rad/H2/Cs]
+! Euclidian distance = 0
+! Multiplied by reaction path degeneracy 4.0Multiplied by reaction path degeneracy 4.0
+C3H7(18)+C(29)=CCC(2)+CH3(15)                       8.626710e-02 4.140     12.560   
+
+! Reaction index: Chemkin #90; RMG #90
+! Template reaction: H_Abstraction
+! Flux pairs: C3H7(19), CCC(3); C(28), CH3(14); 
+! Exact match found for rate rule [C_methane;C_rad/H2/Cs]
+! Euclidian distance = 0
+! Multiplied by reaction path degeneracy 4.0Multiplied by reaction path degeneracy 4.0
+C3H7(19)+C(28)=CCC(3)+CH3(14)                       8.633094e-02 4.140     12.560   
+
+! Reaction index: Chemkin #91; RMG #91
+! Template reaction: H_Abstraction
+! Flux pairs: C3H7(19), CCC(3); C(29), CH3(15); 
+! Exact match found for rate rule [C_methane;C_rad/H2/Cs]
+! Euclidian distance = 0
+! Multiplied by reaction path degeneracy 4.0Multiplied by reaction path degeneracy 4.0
+C3H7(19)+C(29)=CCC(3)+CH3(15)                       8.626710e-02 4.140     12.560   
+
+! Reaction index: Chemkin #92; RMG #92
+! Template reaction: H_Abstraction
+! Flux pairs: C3H7(20), CCC(4); C(28), CH3(14); 
+! Exact match found for rate rule [C_methane;C_rad/H2/Cs]
+! Euclidian distance = 0
+! Multiplied by reaction path degeneracy 4.0Multiplied by reaction path degeneracy 4.0
+C3H7(20)+C(28)=CCC(4)+CH3(14)                       8.633094e-02 4.140     12.560   
+
+! Reaction index: Chemkin #93; RMG #93
+! Template reaction: H_Abstraction
+! Flux pairs: C3H7(20), CCC(4); C(29), CH3(15); 
+! Exact match found for rate rule [C_methane;C_rad/H2/Cs]
+! Euclidian distance = 0
+! Multiplied by reaction path degeneracy 4.0Multiplied by reaction path degeneracy 4.0
+C3H7(20)+C(29)=CCC(4)+CH3(15)                       8.626710e-02 4.140     12.560   
+
+! Reaction index: Chemkin #94; RMG #94
+! Template reaction: H_Abstraction
+! Flux pairs: C3H7(21), CCC(5); C(28), CH3(14); 
+! Exact match found for rate rule [C_methane;C_rad/H2/Cs]
+! Euclidian distance = 0
+! Multiplied by reaction path degeneracy 4.0Multiplied by reaction path degeneracy 4.0
+C3H7(21)+C(28)=CCC(5)+CH3(14)                       8.633094e-02 4.140     12.560   
+
+! Reaction index: Chemkin #95; RMG #95
+! Template reaction: H_Abstraction
+! Flux pairs: C3H7(21), CCC(5); C(29), CH3(15); 
+! Exact match found for rate rule [C_methane;C_rad/H2/Cs]
+! Euclidian distance = 0
+! Multiplied by reaction path degeneracy 4.0Multiplied by reaction path degeneracy 4.0
+C3H7(21)+C(29)=CCC(5)+CH3(15)                       8.626710e-02 4.140     12.560   
+
+! Reaction index: Chemkin #96; RMG #96
+! Template reaction: H_Abstraction
+! Flux pairs: C3H7(22), CCC(4); C(28), CH3(14); 
+! Exact match found for rate rule [C_methane;C_rad/H2/Cs]
+! Euclidian distance = 0
+! Multiplied by reaction path degeneracy 4.0Multiplied by reaction path degeneracy 4.0
+C3H7(22)+C(28)=CCC(4)+CH3(14)                       8.640000e-02 4.140     12.560   
+
+! Reaction index: Chemkin #97; RMG #97
+! Template reaction: H_Abstraction
+! Flux pairs: C3H7(22), CCC(4); C(29), CH3(15); 
+! Exact match found for rate rule [C_methane;C_rad/H2/Cs]
+! Euclidian distance = 0
+! Multiplied by reaction path degeneracy 4.0Multiplied by reaction path degeneracy 4.0
+C3H7(22)+C(29)=CCC(4)+CH3(15)                       8.633094e-02 4.140     12.560   
+
+! Reaction index: Chemkin #98; RMG #98
+! Template reaction: H_Abstraction
+! Flux pairs: C3H7(23), CCC(5); C(28), CH3(14); 
+! Exact match found for rate rule [C_methane;C_rad/H2/Cs]
+! Euclidian distance = 0
+! Multiplied by reaction path degeneracy 4.0Multiplied by reaction path degeneracy 4.0
+C3H7(23)+C(28)=CCC(5)+CH3(14)                       8.640000e-02 4.140     12.560   
+
+! Reaction index: Chemkin #99; RMG #99
+! Template reaction: H_Abstraction
+! Flux pairs: C3H7(23), CCC(5); C(29), CH3(15); 
+! Exact match found for rate rule [C_methane;C_rad/H2/Cs]
+! Euclidian distance = 0
+! Multiplied by reaction path degeneracy 4.0Multiplied by reaction path degeneracy 4.0
+C3H7(23)+C(29)=CCC(5)+CH3(15)                       8.633094e-02 4.140     12.560   
+
+! Reaction index: Chemkin #100; RMG #100
+! Template reaction: H_Abstraction
+! Flux pairs: C3H7(24), CCC(6); C(28), CH3(14); 
+! Exact match found for rate rule [C_methane;C_rad/H2/Cs]
+! Euclidian distance = 0
+! Multiplied by reaction path degeneracy 4.0Multiplied by reaction path degeneracy 4.0
+C3H7(24)+C(28)=CCC(6)+CH3(14)                       8.640000e-02 4.140     12.560   
+
+! Reaction index: Chemkin #101; RMG #101
+! Template reaction: H_Abstraction
+! Flux pairs: C3H7(24), CCC(6); C(29), CH3(15); 
+! Exact match found for rate rule [C_methane;C_rad/H2/Cs]
+! Euclidian distance = 0
+! Multiplied by reaction path degeneracy 4.0Multiplied by reaction path degeneracy 4.0
+C3H7(24)+C(29)=CCC(6)+CH3(15)                       8.633094e-02 4.140     12.560   
+
+! Reaction index: Chemkin #102; RMG #102
+! Template reaction: R_Recombination
+! Flux pairs: CH3(14), C(28); H(16), C(28); 
+! Exact match found for rate rule [C_methyl;H_rad]
+! Euclidian distance = 0
+CH3(14)+H(16)=C(28)                                 1.930000e+14 0.000     0.270    
+
+! Reaction index: Chemkin #103; RMG #103
+! Template reaction: R_Recombination
+! Flux pairs: CH3(15), C(29); H(16), C(29); 
+! Exact match found for rate rule [C_methyl;H_rad]
+! Euclidian distance = 0
+CH3(15)+H(16)=C(29)                                 1.924288e+14 0.000     0.270    
+
+! Reaction index: Chemkin #104; RMG #104
+! Template reaction: H_Abstraction
+! Flux pairs: H(16), H2(30); C(28), CH3(14); 
+! Exact match found for rate rule [C_methane;H_rad]
+! Euclidian distance = 0
+! Multiplied by reaction path degeneracy 4.0Multiplied by reaction path degeneracy 4.0
+H(16)+C(28)=CH3(14)+H2(30)                          8.760000e-01 4.340     8.200    
+
+! Reaction index: Chemkin #105; RMG #105
+! Template reaction: H_Abstraction
+! Flux pairs: H(16), H2(30); C(29), CH3(15); 
+! Exact match found for rate rule [C_methane;H_rad]
+! Euclidian distance = 0
+! Multiplied by reaction path degeneracy 4.0Multiplied by reaction path degeneracy 4.0
+H(16)+C(29)=CH3(15)+H2(30)                          8.737674e-01 4.340     8.200    
+
+! Reaction index: Chemkin #106; RMG #106
+! Template reaction: H_Abstraction
+! Flux pairs: CC(7), C2H5(10); C3H7(17), C3H8(1); 
+! Estimated using an average for rate rule [C/H3/Cs\H3;C_rad/H2/Cs]
+! Euclidian distance = 0
+! Multiplied by reaction path degeneracy 6.0Multiplied by reaction path degeneracy 6.0
+CC(7)+C3H7(17)=C2H5(10)+C3H8(1)                     1.926000e-05 5.280     7.780    
+
+! Reaction index: Chemkin #107; RMG #107
+! Template reaction: H_Abstraction
+! Flux pairs: CC(7), C2H5(10); C3H7(18), CCC(2); 
+! Estimated using an average for rate rule [C/H3/Cs\H3;C_rad/H2/Cs]
+! Euclidian distance = 0
+! Multiplied by reaction path degeneracy 6.0Multiplied by reaction path degeneracy 6.0
+CC(7)+C3H7(18)=CCC(2)+C2H5(10)                      1.924461e-05 5.280     7.780    
+
+! Reaction index: Chemkin #108; RMG #108
+! Template reaction: H_Abstraction
+! Flux pairs: CC(7), C2H5(10); C3H7(19), CCC(3); 
+! Estimated using an average for rate rule [C/H3/Cs\H3;C_rad/H2/Cs]
+! Euclidian distance = 0
+! Multiplied by reaction path degeneracy 6.0Multiplied by reaction path degeneracy 6.0
+CC(7)+C3H7(19)=CCC(3)+C2H5(10)                      1.924461e-05 5.280     7.780    
+
+! Reaction index: Chemkin #109; RMG #109
+! Template reaction: H_Abstraction
+! Flux pairs: CC(7), C2H5(10); C3H7(20), CCC(4); 
+! Estimated using an average for rate rule [C/H3/Cs\H3;C_rad/H2/Cs]
+! Euclidian distance = 0
+! Multiplied by reaction path degeneracy 6.0Multiplied by reaction path degeneracy 6.0
+CC(7)+C3H7(20)=CCC(4)+C2H5(10)                      1.924461e-05 5.280     7.780    
+
+! Reaction index: Chemkin #110; RMG #110
+! Template reaction: H_Abstraction
+! Flux pairs: CC(7), C2H5(10); C3H7(21), CCC(5); 
+! Estimated using an average for rate rule [C/H3/Cs\H3;C_rad/H2/Cs]
+! Euclidian distance = 0
+! Multiplied by reaction path degeneracy 6.0Multiplied by reaction path degeneracy 6.0
+CC(7)+C3H7(21)=CCC(5)+C2H5(10)                      1.924461e-05 5.280     7.780    
+
+! Reaction index: Chemkin #111; RMG #111
+! Template reaction: H_Abstraction
+! Flux pairs: CC(7), C2H5(10); C3H7(22), CCC(4); 
+! Estimated using an average for rate rule [C/H3/Cs\H3;C_rad/H2/Cs]
+! Euclidian distance = 0
+! Multiplied by reaction path degeneracy 6.0Multiplied by reaction path degeneracy 6.0
+CC(7)+C3H7(22)=CCC(4)+C2H5(10)                      1.926000e-05 5.280     7.780    
+
+! Reaction index: Chemkin #112; RMG #112
+! Template reaction: H_Abstraction
+! Flux pairs: CC(7), C2H5(10); C3H7(23), CCC(5); 
+! Estimated using an average for rate rule [C/H3/Cs\H3;C_rad/H2/Cs]
+! Euclidian distance = 0
+! Multiplied by reaction path degeneracy 6.0Multiplied by reaction path degeneracy 6.0
+CC(7)+C3H7(23)=CCC(5)+C2H5(10)                      1.926000e-05 5.280     7.780    
+
+! Reaction index: Chemkin #113; RMG #113
+! Template reaction: H_Abstraction
+! Flux pairs: CC(7), C2H5(10); C3H7(24), CCC(6); 
+! Estimated using an average for rate rule [C/H3/Cs\H3;C_rad/H2/Cs]
+! Euclidian distance = 0
+! Multiplied by reaction path degeneracy 6.0Multiplied by reaction path degeneracy 6.0
+CC(7)+C3H7(24)=CCC(6)+C2H5(10)                      1.926000e-05 5.280     7.780    
+
+! Reaction index: Chemkin #114; RMG #114
+! Template reaction: H_Abstraction
+! Flux pairs: CC(8), C2H5(11); C3H7(17), C3H8(1); 
+! Estimated using an average for rate rule [C/H3/Cs\H3;C_rad/H2/Cs]
+! Euclidian distance = 0
+! Multiplied by reaction path degeneracy 6.0Multiplied by reaction path degeneracy 6.0
+CC(8)+C3H7(17)=C2H5(11)+C3H8(1)                     1.924461e-05 5.280     7.780    
+
+! Reaction index: Chemkin #115; RMG #115
+! Template reaction: H_Abstraction
+! Flux pairs: CC(8), C2H5(11); C3H7(18), CCC(2); 
+! Estimated using an average for rate rule [C/H3/Cs\H3;C_rad/H2/Cs]
+! Euclidian distance = 0
+! Multiplied by reaction path degeneracy 6.0Multiplied by reaction path degeneracy 6.0
+CC(8)+C3H7(18)=CCC(2)+C2H5(11)                      1.923037e-05 5.280     7.780    
+
+! Reaction index: Chemkin #116; RMG #116
+! Template reaction: H_Abstraction
+! Flux pairs: CC(8), C2H5(11); C3H7(19), CCC(3); 
+! Estimated using an average for rate rule [C/H3/Cs\H3;C_rad/H2/Cs]
+! Euclidian distance = 0
+! Multiplied by reaction path degeneracy 6.0Multiplied by reaction path degeneracy 6.0
+CC(8)+C3H7(19)=CCC(3)+C2H5(11)                      1.923037e-05 5.280     7.780    
+
+! Reaction index: Chemkin #117; RMG #117
+! Template reaction: H_Abstraction
+! Flux pairs: CC(8), C2H5(11); C3H7(20), CCC(4); 
+! Estimated using an average for rate rule [C/H3/Cs\H3;C_rad/H2/Cs]
+! Euclidian distance = 0
+! Multiplied by reaction path degeneracy 6.0Multiplied by reaction path degeneracy 6.0
+CC(8)+C3H7(20)=CCC(4)+C2H5(11)                      1.923037e-05 5.280     7.780    
+
+! Reaction index: Chemkin #118; RMG #118
+! Template reaction: H_Abstraction
+! Flux pairs: CC(8), C2H5(11); C3H7(21), CCC(5); 
+! Estimated using an average for rate rule [C/H3/Cs\H3;C_rad/H2/Cs]
+! Euclidian distance = 0
+! Multiplied by reaction path degeneracy 6.0Multiplied by reaction path degeneracy 6.0
+CC(8)+C3H7(21)=CCC(5)+C2H5(11)                      1.923037e-05 5.280     7.780    
+
+! Reaction index: Chemkin #119; RMG #119
+! Template reaction: H_Abstraction
+! Flux pairs: CC(8), C2H5(11); C3H7(22), CCC(4); 
+! Estimated using an average for rate rule [C/H3/Cs\H3;C_rad/H2/Cs]
+! Euclidian distance = 0
+! Multiplied by reaction path degeneracy 6.0Multiplied by reaction path degeneracy 6.0
+CC(8)+C3H7(22)=CCC(4)+C2H5(11)                      1.924461e-05 5.280     7.780    
+
+! Reaction index: Chemkin #120; RMG #120
+! Template reaction: H_Abstraction
+! Flux pairs: CC(8), C2H5(11); C3H7(23), CCC(5); 
+! Estimated using an average for rate rule [C/H3/Cs\H3;C_rad/H2/Cs]
+! Euclidian distance = 0
+! Multiplied by reaction path degeneracy 6.0Multiplied by reaction path degeneracy 6.0
+CC(8)+C3H7(23)=CCC(5)+C2H5(11)                      1.924461e-05 5.280     7.780    
+
+! Reaction index: Chemkin #121; RMG #121
+! Template reaction: H_Abstraction
+! Flux pairs: CC(8), C2H5(11); C3H7(24), CCC(6); 
+! Estimated using an average for rate rule [C/H3/Cs\H3;C_rad/H2/Cs]
+! Euclidian distance = 0
+! Multiplied by reaction path degeneracy 6.0Multiplied by reaction path degeneracy 6.0
+CC(8)+C3H7(24)=CCC(6)+C2H5(11)                      1.924461e-05 5.280     7.780    
+
+! Reaction index: Chemkin #122; RMG #122
+! Template reaction: H_Abstraction
+! Flux pairs: CC(9), C2H5(13); C3H7(17), C3H8(1); 
+! Estimated using an average for rate rule [C/H3/Cs\H3;C_rad/H2/Cs]
+! Euclidian distance = 0
+! Multiplied by reaction path degeneracy 6.0Multiplied by reaction path degeneracy 6.0
+CC(9)+C3H7(17)=C2H5(13)+C3H8(1)                     9.630000e-06 5.280     7.780    
+
+! Reaction index: Chemkin #123; RMG #123
+! Template reaction: H_Abstraction
+! Flux pairs: CC(9), C2H5(12); C3H7(17), C3H8(1); 
+! Estimated using an average for rate rule [C/H3/Cs\H3;C_rad/H2/Cs]
+! Euclidian distance = 0
+! Multiplied by reaction path degeneracy 6.0Multiplied by reaction path degeneracy 6.0
+CC(9)+C3H7(17)=C2H5(12)+C3H8(1)                     9.622303e-06 5.280     7.780    
+
+! Reaction index: Chemkin #124; RMG #124
+! Template reaction: H_Abstraction
+! Flux pairs: CC(9), C2H5(13); C3H7(18), CCC(2); 
+! Estimated using an average for rate rule [C/H3/Cs\H3;C_rad/H2/Cs]
+! Euclidian distance = 0
+! Multiplied by reaction path degeneracy 6.0Multiplied by reaction path degeneracy 6.0
+CC(9)+C3H7(18)=CCC(2)+C2H5(13)                      9.622303e-06 5.280     7.780    
+
+! Reaction index: Chemkin #125; RMG #125
+! Template reaction: H_Abstraction
+! Flux pairs: CC(9), C2H5(12); C3H7(18), CCC(2); 
+! Estimated using an average for rate rule [C/H3/Cs\H3;C_rad/H2/Cs]
+! Euclidian distance = 0
+! Multiplied by reaction path degeneracy 6.0Multiplied by reaction path degeneracy 6.0
+CC(9)+C3H7(18)=CCC(2)+C2H5(12)                      9.615187e-06 5.280     7.780    
+
+! Reaction index: Chemkin #126; RMG #126
+! Template reaction: H_Abstraction
+! Flux pairs: CC(9), C2H5(13); C3H7(19), CCC(3); 
+! Estimated using an average for rate rule [C/H3/Cs\H3;C_rad/H2/Cs]
+! Euclidian distance = 0
+! Multiplied by reaction path degeneracy 6.0Multiplied by reaction path degeneracy 6.0
+CC(9)+C3H7(19)=CCC(3)+C2H5(13)                      9.622303e-06 5.280     7.780    
+
+! Reaction index: Chemkin #127; RMG #127
+! Template reaction: H_Abstraction
+! Flux pairs: CC(9), C2H5(12); C3H7(19), CCC(3); 
+! Estimated using an average for rate rule [C/H3/Cs\H3;C_rad/H2/Cs]
+! Euclidian distance = 0
+! Multiplied by reaction path degeneracy 6.0Multiplied by reaction path degeneracy 6.0
+CC(9)+C3H7(19)=CCC(3)+C2H5(12)                      9.615187e-06 5.280     7.780    
+
+! Reaction index: Chemkin #128; RMG #128
+! Template reaction: H_Abstraction
+! Flux pairs: CC(9), C2H5(13); C3H7(20), CCC(4); 
+! Estimated using an average for rate rule [C/H3/Cs\H3;C_rad/H2/Cs]
+! Euclidian distance = 0
+! Multiplied by reaction path degeneracy 6.0Multiplied by reaction path degeneracy 6.0
+CC(9)+C3H7(20)=CCC(4)+C2H5(13)                      9.622303e-06 5.280     7.780    
+
+! Reaction index: Chemkin #129; RMG #129
+! Template reaction: H_Abstraction
+! Flux pairs: CC(9), C2H5(12); C3H7(20), CCC(4); 
+! Estimated using an average for rate rule [C/H3/Cs\H3;C_rad/H2/Cs]
+! Euclidian distance = 0
+! Multiplied by reaction path degeneracy 6.0Multiplied by reaction path degeneracy 6.0
+CC(9)+C3H7(20)=CCC(4)+C2H5(12)                      9.615187e-06 5.280     7.780    
+
+! Reaction index: Chemkin #130; RMG #130
+! Template reaction: H_Abstraction
+! Flux pairs: CC(9), C2H5(13); C3H7(21), CCC(5); 
+! Estimated using an average for rate rule [C/H3/Cs\H3;C_rad/H2/Cs]
+! Euclidian distance = 0
+! Multiplied by reaction path degeneracy 6.0Multiplied by reaction path degeneracy 6.0
+CC(9)+C3H7(21)=CCC(5)+C2H5(13)                      9.622303e-06 5.280     7.780    
+
+! Reaction index: Chemkin #131; RMG #131
+! Template reaction: H_Abstraction
+! Flux pairs: CC(9), C2H5(12); C3H7(21), CCC(5); 
+! Estimated using an average for rate rule [C/H3/Cs\H3;C_rad/H2/Cs]
+! Euclidian distance = 0
+! Multiplied by reaction path degeneracy 6.0Multiplied by reaction path degeneracy 6.0
+CC(9)+C3H7(21)=CCC(5)+C2H5(12)                      9.615187e-06 5.280     7.780    
+
+! Reaction index: Chemkin #132; RMG #132
+! Template reaction: H_Abstraction
+! Flux pairs: CC(9), C2H5(13); C3H7(22), CCC(4); 
+! Estimated using an average for rate rule [C/H3/Cs\H3;C_rad/H2/Cs]
+! Euclidian distance = 0
+! Multiplied by reaction path degeneracy 6.0Multiplied by reaction path degeneracy 6.0
+CC(9)+C3H7(22)=CCC(4)+C2H5(13)                      9.630000e-06 5.280     7.780    
+
+! Reaction index: Chemkin #133; RMG #133
+! Template reaction: H_Abstraction
+! Flux pairs: CC(9), C2H5(12); C3H7(22), CCC(4); 
+! Estimated using an average for rate rule [C/H3/Cs\H3;C_rad/H2/Cs]
+! Euclidian distance = 0
+! Multiplied by reaction path degeneracy 6.0Multiplied by reaction path degeneracy 6.0
+CC(9)+C3H7(22)=CCC(4)+C2H5(12)                      9.622303e-06 5.280     7.780    
+
+! Reaction index: Chemkin #134; RMG #134
+! Template reaction: H_Abstraction
+! Flux pairs: CC(9), C2H5(13); C3H7(23), CCC(5); 
+! Estimated using an average for rate rule [C/H3/Cs\H3;C_rad/H2/Cs]
+! Euclidian distance = 0
+! Multiplied by reaction path degeneracy 6.0Multiplied by reaction path degeneracy 6.0
+CC(9)+C3H7(23)=CCC(5)+C2H5(13)                      9.630000e-06 5.280     7.780    
+
+! Reaction index: Chemkin #135; RMG #135
+! Template reaction: H_Abstraction
+! Flux pairs: CC(9), C2H5(12); C3H7(23), CCC(5); 
+! Estimated using an average for rate rule [C/H3/Cs\H3;C_rad/H2/Cs]
+! Euclidian distance = 0
+! Multiplied by reaction path degeneracy 6.0Multiplied by reaction path degeneracy 6.0
+CC(9)+C3H7(23)=CCC(5)+C2H5(12)                      9.622303e-06 5.280     7.780    
+
+! Reaction index: Chemkin #136; RMG #136
+! Template reaction: H_Abstraction
+! Flux pairs: CC(9), C2H5(13); C3H7(24), CCC(6); 
+! Estimated using an average for rate rule [C/H3/Cs\H3;C_rad/H2/Cs]
+! Euclidian distance = 0
+! Multiplied by reaction path degeneracy 6.0Multiplied by reaction path degeneracy 6.0
+CC(9)+C3H7(24)=CCC(6)+C2H5(13)                      9.630000e-06 5.280     7.780    
+
+! Reaction index: Chemkin #137; RMG #137
+! Template reaction: H_Abstraction
+! Flux pairs: CC(9), C2H5(12); C3H7(24), CCC(6); 
+! Estimated using an average for rate rule [C/H3/Cs\H3;C_rad/H2/Cs]
+! Euclidian distance = 0
+! Multiplied by reaction path degeneracy 6.0Multiplied by reaction path degeneracy 6.0
+CC(9)+C3H7(24)=CCC(6)+C2H5(12)                      9.622303e-06 5.280     7.780    
+
+! Reaction index: Chemkin #138; RMG #138
+! Template reaction: Disproportionation
+! Flux pairs: C2H5(10), CC(7); C2H5(10), C2H4(25); 
+! Exact match found for rate rule [C_rad/H2/Cs;Cmethyl_Csrad]
+! Euclidian distance = 0
+! Multiplied by reaction path degeneracy 3.0Multiplied by reaction path degeneracy 3.0
+C2H5(10)+C2H5(10)=CC(7)+C2H4(25)                    6.900000e+13 -0.350    0.000    
+
+! Reaction index: Chemkin #139; RMG #139
+! Template reaction: Disproportionation
+! Flux pairs: C2H5(10), CC(7); C2H5(11), C2H4(26); 
+! Exact match found for rate rule [C_rad/H2/Cs;Cmethyl_Csrad]
+! Euclidian distance = 0
+! Multiplied by reaction path degeneracy 3.0Multiplied by reaction path degeneracy 3.0
+C2H5(10)+C2H5(11)=CC(7)+C2H4(26)                    6.894485e+13 -0.350    0.000    
+
+! Reaction index: Chemkin #140; RMG #140
+! Template reaction: Disproportionation
+! Flux pairs: C2H5(10), C2H4(25); C2H5(11), CC(8); 
+! Exact match found for rate rule [C_rad/H2/Cs;Cmethyl_Csrad]
+! Euclidian distance = 0
+! Multiplied by reaction path degeneracy 3.0Multiplied by reaction path degeneracy 3.0
+C2H5(10)+C2H5(11)=CC(8)+C2H4(25)                    6.894485e+13 -0.350    0.000    
+
+! Reaction index: Chemkin #141; RMG #141
+! Template reaction: Disproportionation
+! Flux pairs: C2H5(10), CC(7); C2H5(12), C2H4(27); 
+! Exact match found for rate rule [C_rad/H2/Cs;Cmethyl_Csrad]
+! Euclidian distance = 0
+! Multiplied by reaction path degeneracy 3.0Multiplied by reaction path degeneracy 3.0
+C2H5(10)+C2H5(12)=CC(7)+C2H4(27)                    6.900000e+13 -0.350    0.000    
+
+! Reaction index: Chemkin #142; RMG #142
+! Template reaction: Disproportionation
+! Flux pairs: C2H5(10), C2H4(25); C2H5(12), CC(9); 
+! Exact match found for rate rule [C_rad/H2/Cs;Cmethyl_Csrad]
+! Euclidian distance = 0
+! Multiplied by reaction path degeneracy 3.0Multiplied by reaction path degeneracy 3.0
+C2H5(10)+C2H5(12)=CC(9)+C2H4(25)                    6.894485e+13 -0.350    0.000    
+
+! Reaction index: Chemkin #143; RMG #143
+! Template reaction: Disproportionation
+! Flux pairs: C2H5(10), CC(7); C2H5(13), C2H4(27); 
+! Exact match found for rate rule [C_rad/H2/Cs;Cmethyl_Csrad]
+! Euclidian distance = 0
+! Multiplied by reaction path degeneracy 3.0Multiplied by reaction path degeneracy 3.0
+C2H5(10)+C2H5(13)=CC(7)+C2H4(27)                    6.894485e+13 -0.350    0.000    
+
+! Reaction index: Chemkin #144; RMG #144
+! Template reaction: Disproportionation
+! Flux pairs: C2H5(10), C2H4(25); C2H5(13), CC(9); 
+! Exact match found for rate rule [C_rad/H2/Cs;Cmethyl_Csrad]
+! Euclidian distance = 0
+! Multiplied by reaction path degeneracy 3.0Multiplied by reaction path degeneracy 3.0
+C2H5(10)+C2H5(13)=CC(9)+C2H4(25)                    6.900000e+13 -0.350    0.000    
+
+! Reaction index: Chemkin #145; RMG #145
+! Template reaction: Disproportionation
+! Flux pairs: C2H5(11), CC(8); C2H5(11), C2H4(26); 
+! Exact match found for rate rule [C_rad/H2/Cs;Cmethyl_Csrad]
+! Euclidian distance = 0
+! Multiplied by reaction path degeneracy 3.0Multiplied by reaction path degeneracy 3.0
+C2H5(11)+C2H5(11)=CC(8)+C2H4(26)                    6.889386e+13 -0.350    0.000    
+
+! Reaction index: Chemkin #146; RMG #146
+! Template reaction: Disproportionation
+! Flux pairs: C2H5(11), CC(8); C2H5(12), C2H4(27); 
+! Exact match found for rate rule [C_rad/H2/Cs;Cmethyl_Csrad]
+! Euclidian distance = 0
+! Multiplied by reaction path degeneracy 3.0Multiplied by reaction path degeneracy 3.0
+C2H5(11)+C2H5(12)=CC(8)+C2H4(27)                    6.894485e+13 -0.350    0.000    
+
+! Reaction index: Chemkin #147; RMG #147
+! Template reaction: Disproportionation
+! Flux pairs: C2H5(11), C2H4(26); C2H5(12), CC(9); 
+! Exact match found for rate rule [C_rad/H2/Cs;Cmethyl_Csrad]
+! Euclidian distance = 0
+! Multiplied by reaction path degeneracy 3.0Multiplied by reaction path degeneracy 3.0
+C2H5(11)+C2H5(12)=CC(9)+C2H4(26)                    6.889386e+13 -0.350    0.000    
+
+! Reaction index: Chemkin #148; RMG #148
+! Template reaction: Disproportionation
+! Flux pairs: C2H5(11), CC(8); C2H5(13), C2H4(27); 
+! Exact match found for rate rule [C_rad/H2/Cs;Cmethyl_Csrad]
+! Euclidian distance = 0
+! Multiplied by reaction path degeneracy 3.0Multiplied by reaction path degeneracy 3.0
+C2H5(11)+C2H5(13)=CC(8)+C2H4(27)                    6.889386e+13 -0.350    0.000    
+
+! Reaction index: Chemkin #149; RMG #149
+! Template reaction: Disproportionation
+! Flux pairs: C2H5(11), C2H4(26); C2H5(13), CC(9); 
+! Exact match found for rate rule [C_rad/H2/Cs;Cmethyl_Csrad]
+! Euclidian distance = 0
+! Multiplied by reaction path degeneracy 3.0Multiplied by reaction path degeneracy 3.0
+C2H5(11)+C2H5(13)=CC(9)+C2H4(26)                    6.894485e+13 -0.350    0.000    
+
+! Reaction index: Chemkin #150; RMG #150
+! Template reaction: Disproportionation
+! Flux pairs: C2H5(12), CC(9); C2H5(12), C2H4(27); 
+! Exact match found for rate rule [C_rad/H2/Cs;Cmethyl_Csrad]
+! Euclidian distance = 0
+! Multiplied by reaction path degeneracy 3.0Multiplied by reaction path degeneracy 3.0
+C2H5(12)+C2H5(12)=CC(9)+C2H4(27)                    6.894485e+13 -0.350    0.000    
+
+! Reaction index: Chemkin #151; RMG #151
+! Template reaction: Disproportionation
+! Flux pairs: C2H5(12), CC(9); C2H5(13), C2H4(27); 
+! Exact match found for rate rule [C_rad/H2/Cs;Cmethyl_Csrad]
+! Euclidian distance = 0
+! Multiplied by reaction path degeneracy 3.0Multiplied by reaction path degeneracy 3.0
+C2H5(12)+C2H5(13)=CC(9)+C2H4(27)                    1.377877e+14 -0.350    0.000    
+
+! Reaction index: Chemkin #152; RMG #152
+! Template reaction: Disproportionation
+! Flux pairs: C2H5(13), CC(9); C2H5(13), C2H4(27); 
+! Exact match found for rate rule [C_rad/H2/Cs;Cmethyl_Csrad]
+! Euclidian distance = 0
+! Multiplied by reaction path degeneracy 3.0Multiplied by reaction path degeneracy 3.0
+C2H5(13)+C2H5(13)=CC(9)+C2H4(27)                    6.894485e+13 -0.350    0.000    
+
+! Reaction index: Chemkin #153; RMG #153
+! Template reaction: R_Recombination
+! Flux pairs: CH3(14), CC(7); CH3(14), CC(7); 
+! Matched reaction 20 CH3 + CH3 (=) C2H6 in R_Recombination/training
+! This reaction matched rate rule [C_methyl;C_methyl]
+CH3(14)+CH3(14)=CC(7)                               4.725000e+14 -0.538    0.135    
+
+! Reaction index: Chemkin #154; RMG #154
+! Template reaction: R_Recombination
+! Flux pairs: CH3(14), CC(9); CH3(15), CC(9); 
+! Matched reaction 20 CH3 + CH3 (=) C2H6 in R_Recombination/training
+! This reaction matched rate rule [C_methyl;C_methyl]
+CH3(14)+CH3(15)=CC(9)                               9.267905e+14 -0.538    0.135    
+
+! Reaction index: Chemkin #155; RMG #155
+! Template reaction: R_Recombination
+! Flux pairs: CH3(15), CC(8); CH3(15), CC(8); 
+! Matched reaction 20 CH3 + CH3 (=) C2H6 in R_Recombination/training
+! This reaction matched rate rule [C_methyl;C_methyl]
+CH3(15)+CH3(15)=CC(8)                               4.541080e+14 -0.538    0.135    
+
+! Reaction index: Chemkin #156; RMG #156
+! Template reaction: H_Abstraction
+! Flux pairs: H(16), H2(30); CC(7), C2H5(10); 
+! Estimated using average of templates [C/H3/Cs;H_rad] + [C/H3/Cs\H3;Y_rad] for rate rule [C/H3/Cs\H3;H_rad]
+! Euclidian distance = 1.0
+! Multiplied by reaction path degeneracy 6.0Multiplied by reaction path degeneracy 6.0
+CC(7)+H(16)=C2H5(10)+H2(30)                         2.174944e+00 4.070     6.080    
+
+! Reaction index: Chemkin #157; RMG #157
+! Template reaction: H_Abstraction
+! Flux pairs: H(16), H2(30); CC(8), C2H5(11); 
+! Estimated using average of templates [C/H3/Cs;H_rad] + [C/H3/Cs\H3;Y_rad] for rate rule [C/H3/Cs\H3;H_rad]
+! Euclidian distance = 1.0
+! Multiplied by reaction path degeneracy 6.0Multiplied by reaction path degeneracy 6.0
+CC(8)+H(16)=C2H5(11)+H2(30)                         2.169401e+00 4.070     6.080    
+
+! Reaction index: Chemkin #158; RMG #158
+! Template reaction: H_Abstraction
+! Flux pairs: H(16), H2(30); CC(9), C2H5(13); 
+! Estimated using average of templates [C/H3/Cs;H_rad] + [C/H3/Cs\H3;Y_rad] for rate rule [C/H3/Cs\H3;H_rad]
+! Euclidian distance = 1.0
+! Multiplied by reaction path degeneracy 6.0Multiplied by reaction path degeneracy 6.0
+CC(9)+H(16)=C2H5(13)+H2(30)                         1.087472e+00 4.070     6.080    
+
+! Reaction index: Chemkin #159; RMG #159
+! Template reaction: H_Abstraction
+! Flux pairs: H(16), H2(30); CC(9), C2H5(12); 
+! Estimated using average of templates [C/H3/Cs;H_rad] + [C/H3/Cs\H3;Y_rad] for rate rule [C/H3/Cs\H3;H_rad]
+! Euclidian distance = 1.0
+! Multiplied by reaction path degeneracy 6.0Multiplied by reaction path degeneracy 6.0
+CC(9)+H(16)=C2H5(12)+H2(30)                         1.084700e+00 4.070     6.080    
+
+! Reaction index: Chemkin #160; RMG #160
+! Template reaction: H_Abstraction
+! Flux pairs: CH3(14), C(28); CC(7), C2H5(10); 
+! Estimated using average of templates [C/H3/Cs;C_methyl] + [C/H3/Cs\H3;Cs_rad] for rate rule [C/H3/Cs\H3;C_methyl]
+! Euclidian distance = 1.0
+! Multiplied by reaction path degeneracy 6.0Multiplied by reaction path degeneracy 6.0
+CC(7)+CH3(14)=C2H5(10)+C(28)                        2.940049e-05 5.135     7.890    
+
+! Reaction index: Chemkin #161; RMG #161
+! Template reaction: H_Abstraction
+! Flux pairs: CH3(14), C(28); CC(8), C2H5(11); 
+! Estimated using average of templates [C/H3/Cs;C_methyl] + [C/H3/Cs\H3;Cs_rad] for rate rule [C/H3/Cs\H3;C_methyl]
+! Euclidian distance = 1.0
+! Multiplied by reaction path degeneracy 6.0Multiplied by reaction path degeneracy 6.0
+CC(8)+CH3(14)=C2H5(11)+C(28)                        2.937699e-05 5.135     7.890    
+
+! Reaction index: Chemkin #162; RMG #162
+! Template reaction: H_Abstraction
+! Flux pairs: CH3(14), C(28); CC(9), C2H5(13); 
+! Estimated using average of templates [C/H3/Cs;C_methyl] + [C/H3/Cs\H3;Cs_rad] for rate rule [C/H3/Cs\H3;C_methyl]
+! Euclidian distance = 1.0
+! Multiplied by reaction path degeneracy 6.0Multiplied by reaction path degeneracy 6.0
+CC(9)+CH3(14)=C2H5(13)+C(28)                        1.470025e-05 5.135     7.890    
+
+! Reaction index: Chemkin #163; RMG #163
+! Template reaction: H_Abstraction
+! Flux pairs: CH3(14), C(28); CC(9), C2H5(12); 
+! Estimated using average of templates [C/H3/Cs;C_methyl] + [C/H3/Cs\H3;Cs_rad] for rate rule [C/H3/Cs\H3;C_methyl]
+! Euclidian distance = 1.0
+! Multiplied by reaction path degeneracy 6.0Multiplied by reaction path degeneracy 6.0
+CC(9)+CH3(14)=C2H5(12)+C(28)                        1.468849e-05 5.135     7.890    
+
+! Reaction index: Chemkin #164; RMG #164
+! Template reaction: H_Abstraction
+! Flux pairs: CH3(15), C(29); CC(7), C2H5(10); 
+! Estimated using average of templates [C/H3/Cs;C_methyl] + [C/H3/Cs\H3;Cs_rad] for rate rule [C/H3/Cs\H3;C_methyl]
+! Euclidian distance = 1.0
+! Multiplied by reaction path degeneracy 6.0Multiplied by reaction path degeneracy 6.0
+CC(7)+CH3(15)=C2H5(10)+C(29)                        2.937699e-05 5.135     7.890    
+
+! Reaction index: Chemkin #165; RMG #165
+! Template reaction: H_Abstraction
+! Flux pairs: CH3(15), C(29); CC(8), C2H5(11); 
+! Estimated using average of templates [C/H3/Cs;C_methyl] + [C/H3/Cs\H3;Cs_rad] for rate rule [C/H3/Cs\H3;C_methyl]
+! Euclidian distance = 1.0
+! Multiplied by reaction path degeneracy 6.0Multiplied by reaction path degeneracy 6.0
+CC(8)+CH3(15)=C2H5(11)+C(29)                        2.935527e-05 5.135     7.890    
+
+! Reaction index: Chemkin #166; RMG #166
+! Template reaction: H_Abstraction
+! Flux pairs: CH3(15), C(29); CC(9), C2H5(13); 
+! Estimated using average of templates [C/H3/Cs;C_methyl] + [C/H3/Cs\H3;Cs_rad] for rate rule [C/H3/Cs\H3;C_methyl]
+! Euclidian distance = 1.0
+! Multiplied by reaction path degeneracy 6.0Multiplied by reaction path degeneracy 6.0
+CC(9)+CH3(15)=C2H5(13)+C(29)                        1.468849e-05 5.135     7.890    
+
+! Reaction index: Chemkin #167; RMG #167
+! Template reaction: H_Abstraction
+! Flux pairs: CH3(15), C(29); CC(9), C2H5(12); 
+! Estimated using average of templates [C/H3/Cs;C_methyl] + [C/H3/Cs\H3;Cs_rad] for rate rule [C/H3/Cs\H3;C_methyl]
+! Euclidian distance = 1.0
+! Multiplied by reaction path degeneracy 6.0Multiplied by reaction path degeneracy 6.0
+CC(9)+CH3(15)=C2H5(12)+C(29)                        1.467763e-05 5.135     7.890    
+
+END
+
