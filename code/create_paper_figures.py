@@ -12,13 +12,13 @@ from matplotlib.lines import Line2D
 
 try:
     import cantera as ct
-except ModuleNotFoundError:
+except:
     raise Exception("I am not seeing cantera installed. Find more information about installing it on https://www.cantera.org/.")
 
 try:
     import cantera_tools as ctt
     import analysis_methods as am
-except ModuleNotFoundError:
+except:
     raise Exception("I am having trouble loading special modules. Make sure you run this script from within the 'code' folder.")
 
 image_path = '../results'
