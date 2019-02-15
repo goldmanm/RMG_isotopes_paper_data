@@ -129,7 +129,7 @@ for name, mainPath in main_paths:
 
 molecule = 'ethene'
 
-ax = plt.subplot()
+f,ax = plt.subplots()
 for identifier, enrichments in enrichment_results:
     enrichments.plot(y=molecule,ax=ax)
     
@@ -148,7 +148,7 @@ plt.savefig(os.path.join(image_path,'{}_enrich.pdf'.format(molecule)),bbox_inche
 
 molecule = 'ethyl'
 
-ax = plt.subplot()
+f,ax = plt.subplots()
 for column_name in ethyl_psie_all.columns:
     psie_data = ethyl_psie_all[column_name]
     psie_data.plot(ax=ax)
